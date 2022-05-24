@@ -1,0 +1,44 @@
+p{
+  display: inline;
+  font-weight: 300;
+  font-family: Andale Mono, monospace;
+}
+
+
+.forContact a{
+  text-decoration: none;
+  color:#0687f5;
+  font-weight: 300;
+  font-family: Andale Mono, monospace;
+}
+.forContact a:hover{
+    color: #b82dfd;
+  }
+.snsLinks a{
+  text-decoration: none;
+  color:#0687f5;
+  font-weight: 700;
+  font-family: Andale Mono, monospace;
+}
+
+.snsLinks a:hover{
+	color: #b82dfd;
+}
+
+.snsLinks{
+  
+  margin-top: 10%;
+  font-weight: 500;
+}
+
+li{
+  list-style-type: square;
+}
+
+#contactform {
+  margin-top: 50px;
+}
+
+#contactPhoto{
+  margin-top: 50px;
+}

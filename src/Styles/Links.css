@@ -1,0 +1,269 @@
+.links {
+  margin-top: 100px;
+}
+
+#kazumi {
+  margin-top: 100px;
+  font-family: Andale Mono, monospace;
+  font-size: x-large;
+  position: relative;
+  color: black;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+
+.nav {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+
+#bio {
+  position: relative;
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  font-family: Andale Mono, monospace;
+  font-size: x-large
+}
+
+#bio:hover {
+  color: #b82dfd;
+}
+
+#music {
+  position: relative;
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  font-family: Andale Mono, monospace;
+  font-size: x-large
+}
+
+#music:hover {
+  color: #b82dfd;
+}
+
+#contact {
+  position: relative;
+  margin-left: 5px;
+  color: black;
+  text-decoration: none;
+  font-family: Andale Mono, monospace;
+  font-size: x-large
+}
+
+#contact:hover {
+  color: #b82dfd;
+}
+
+#navBarcolor {
+  background-color: rgb(199, 192, 192);
+}
+
+/* ---------------------------------- */
+@media screen and (max-width: 959px) {
+  #kazumi {
+    margin: auto;
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  #kazumi {
+    font-size: 30px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #kazumi {
+    font-size: 30px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #kazumi {
+    font-size: 30px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #kazumi {
+    font-size: 25px;
+    margin: auto;
+    font-size: 20px;
+  }
+}
+
+/* ---------------------------------- */
+
+@media screen and (max-width: 959px) {
+  #sbLogo {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  #sbLogo {
+    width: 300px;
+    
+  }
+}
+@media screen and (max-width: 959px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .logo {
+    margin: auto;
+
+  }
+}
+@media screen and (max-width: 959px) {
+  .logo {
+    margin: auto;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #sbLogo {
+    width: 250px;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #sbLogo {
+    width: 250px;
+    margin: 20px;
+  }
+}
+
+
+/* ---------------------------------- */
+@media screen and (max-width: 959px) {
+  .links {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .links {
+    margin-top: 50px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .links {
+    margin-top: 50px;
+    
+    
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .links {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+/* ---------------------------------- */
+@media screen and (max-width: 959px) {
+  #bio {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 790px) {
+  #bio {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #bio {
+    margin-left: 10px;
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #bio {
+    font-size: 10px;
+  }
+}
+
+/* ---------------------------------- */
+@media screen and (max-width: 959px) {
+  #music {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 790px) {
+  #music {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #music {
+    padding-left: 15px;
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #music {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
+
+/* ---------------------------------- */
+@media screen and (max-width: 959px) {
+  #contact {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 790px) {
+  #contact {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #contact {
+    padding-left: 15px;
+    padding-right: 25px;
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #contact {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+}

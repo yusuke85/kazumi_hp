@@ -1,0 +1,61 @@
+.lpPhotos{
+  margin-top: 50px;
+}
+
+#item1{
+  padding-bottom: 12px;
+}
+
+#item2{
+  padding-top: 12px;
+}
+#pleaseClick{
+  margin-top: 30px;
+  text-align: center;
+  font-family: Andale Mono, monospace;
+}
+
+@keyframes img-fluid{
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+#metro, #boat, #grass, #macba, #bell, #pingpong, #bus, #morningSun{
+  animation-name: img-fluid;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
+} 
+
+@media screen and (max-width: 480px) {
+  #pleaseClick{
+    font-size: x-large;
+  }
+}

@@ -1,0 +1,22 @@
+
+.row h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Andale Mono, monospace;
+}
+
+.text-center{
+  font-family: Andale Mono, monospace;
+  line-height: 2;
+}
+
+.BioFooter{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row h4{
+  margin-bottom: 40px;
+  font-family: Andale Mono, monospace;
+}
