@@ -7,20 +7,13 @@ import "../Styles/Contact.css"
 function Contact() {
 
   return (
-
-
     <Container fluid >
-
       <Row fluid >
-
         <Col md={2} />
-        
         <Col md={5} xs={12}>
-          <img src={ContactPhoto} id="contactPhoto"class="img-fluid" max-width="100%" width="600" height="auto" alt="..." />
+          <img src={ContactPhoto} id="contactPhoto" class="img-fluid" max-width="100%" width="600" height="auto" alt="..." />
         </Col>
-
-
-        <Col id="contactform"md={3} xs={12}>
+        <Col id="contactform" md={3} xs={12}>
           <p className="forContact"> For all booking, hiring, please send correspondence.
             <br /><a href="kazumisakodamusic@gmail.com">kazumisakodamusic@gmail.com</a>
           </p>
@@ -44,12 +37,8 @@ function Contact() {
             </ul>
           </div>
         </Col>
-
-
       </Row >
     </Container >
-
-
   )
 }
 

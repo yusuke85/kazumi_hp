@@ -13,7 +13,6 @@ function Music() {
   return (
     <>
       <Container>
-
         <div class="card mb-3" id="musicCards" style={{ maxWidth: "100%" }}>
           <div class="row g-0">
             <h4>Latest Recordings</h4>
@@ -26,7 +25,6 @@ function Music() {
                 <p class="card-text">Inspired by Asako Yuzuki's novel "Lantern", I composed it for International Women's Day.</p>
               </div>
             </div>
-
             <div class="col-md-3">
               <a href="https://youtu.be/eVWkArbC7_o" target="blank"><img src={Youtube02} id="youTubeImg2" class="img-fluid rounded-sharp" alt="..." /></a>
             </div>
@@ -35,11 +33,9 @@ function Music() {
                 <h5 class="card-title">2021 "el bosque corrompido"< br />
                   video by Daniel Clegg</h5>
                 <p class="card-text">What was originally a thing is transformed by a person and becomes a thing again over time or by the sheer force of nature.</p>
-
               </div>
             </div>
           </div>
-
           <div class="row g-0">
             <div class="col-md-3">
               <a href="https://kazumisakoda.bandcamp.com/album/being-alive" target="blank"><img src={Youtube03} id="youTubeImg3" class="img-fluid rounded-sharp" alt="..." /></a>
@@ -50,10 +46,8 @@ function Music() {
                 <p class="card-text">Sometimes I musically feel the sounds of the city.
                   I made this song through Zoom with Norman in Tokyo during the pandemic.
                 </p>
-
               </div>
             </div>
-
             <div class="col-md-3">
               <a href="https://youtu.be/4Y_GCwwb1r0" target="blank"><img src={Youtube04} id="youTubeImg4" class="img-fluid rounded-sharp" alt="..." /></a>
             </div>
@@ -66,7 +60,6 @@ function Music() {
             </div>
           </div>
         </div>
-
         <div class="row g-0">
           <div class="col-md-3">
             <a href="https://soundcloud.com/kazumisakoda/plcataluna-badalona?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="blank"><img src={Youtube05} id="youTubeImg5" class="img-fluid rounded-sharp" alt="..." /></a>
@@ -78,7 +71,6 @@ function Music() {
             </div>
           </div>
         </div>
-
         <hr />
         <div class="card mb-3" id="musicCards" style={{ maxWidth: "100%" }}>
           <div class="row g-0">
@@ -99,12 +91,10 @@ function Music() {
                   4.
                   Plaça dels Àngels<br />
                 </p>
-
               </div>
             </div>
           </div>
         </div>
-
         <div className="footer">
           <div className="footerInner">
             <p className="footerLink">
@@ -112,11 +102,9 @@ function Music() {
               <a href="https://www.youtube.com/channel/UClGgOLYCBl8Ccz2_nuyjFCw" id="videoClip" target="blank">YOUTUBE</a><span style={{ fontSize: "8px" }}>•</span>
               <a href="https://kazumisakoda.bandcamp.com/" id="videoClip" target="blank">BANDCAMP</a>
             </p>
-
           </div>
         </div>
       </Container>
-
     </>
   )
 }

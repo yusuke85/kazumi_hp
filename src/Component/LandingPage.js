@@ -28,27 +28,27 @@ const useAudio = () => {
   const [audio] = useState(new Audio(FuneAudio));
   const [playing, setPlaying] = useState(false);
 
-  
+
   const toggle = () => setPlaying(!playing);
-  
+
   // const play = useCallback(() => {
   //   playing ? audio.play() : audio.pause();
   //   audio.loop = true;
   // })
-  
-//   useEffect(() => {function doSomting(){
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }doSomting()
-// },[playing, audio]
-//  );
 
- useEffect(() => {
-  playing ? audio.play() : audio.pause();
-  audio.loop = true;
-},
-  [playing, audio]
-);
+  //   useEffect(() => {function doSomting(){
+  //     playing ? audio.play() : audio.pause();
+  //     audio.loop = true;
+  //   }doSomting()
+  // },[playing, audio]
+  //  );
+
+  useEffect(() => {
+    playing ? audio.play() : audio.pause();
+    audio.loop = true;
+  },
+    [playing, audio]
+  );
 
   useEffect(() => {
     audio.addEventListener('ended', () => setPlaying(false));
@@ -72,7 +72,7 @@ const useAudio2 = () => {
     playing ? audio.play() : audio.pause();
     audio.loop = true;
   },
-    [playing,audio]
+    [playing, audio]
   );
 
   useEffect(() => {
@@ -281,12 +281,11 @@ const LandingPage = () => {
   return (
     <body>
       <h2 id="pleaseClick">
-        Please click some images!!
+        Please click on the images!!
       </h2>
       <Container className="lpPhotos">
         <Row id="item1">
-
-        <Col md={2} sm={2} xs={2}>
+          <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="..." />
           </Col>
           <Col md={2} sm={2} xs={2}>
@@ -304,9 +303,7 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img src={Pingpong} id={active8 ? "pingpong" : ""} className="img-fluid" alt="..." onClick={() => { toggle8(); classToggle8() }} />{playing8}
           </Col>
-          
         </Row>
-
         <Row id="item2">
           <Col md={2} sm={2} xs={2}>
             <img src={Bus} id={active4 ? "bus" : ""} className="img-fluid" alt="..." onClick={() => { toggle4(); classToggle4() }} />{playing4}
@@ -317,9 +314,6 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img src={Macba01} id={active7 ? "macba" : ""} className="img-fluid" alt="..." onClick={() => { toggle7(); classToggle7() }} />{playing7}
           </Col>
-          {/* <Col md={2} sm={2} xs={2}>
-            <img src={Macba02} id="macba02" className="img-fluid" alt="..." />
-          </Col> */}
           <Col md={2} sm={2} xs={2}>
             <img src={Metro} id={active2 ? "metro" : ""} className="img-fluid" alt="..." onClick={() => { toggle2(); classToggle2() }} />{playing2}
           </Col>

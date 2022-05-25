@@ -7,14 +7,12 @@ const Bio = () => {
 
   return (
     <Container>
-
       <Row >
         <Col md={2} />
         <Col md={8}>
           <img src={Image} id="kazumi1" className="img-fluid" alt="..." />
         </Col>
       </Row>
-
       <Row >
         <Col md={2} />
         <Col md={8}>
@@ -31,7 +29,6 @@ const Bio = () => {
           </p>
         </Col>
       </Row>
-
       <Row >
         <Col md={2} />
         <Col md={8}>
