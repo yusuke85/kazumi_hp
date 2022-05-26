@@ -41,6 +41,10 @@ hr{
   font-family: Andale Mono, monospace;
 }
 
+#bcCardTx{
+  line-height: 2.5;
+}
+
 @media screen and (max-width: 480px) { 
   .col-md-3 {
     margin-top: 40px;

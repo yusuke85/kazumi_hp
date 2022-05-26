@@ -81,7 +81,7 @@ function Music() {
             <div class="col-md-3">
               <div class="card-body">
                 <h5 class="card-title">2019 "Sampling Barcelona" </h5>
-                <p class="card-text">
+                <p class="card-text" id="bcCardTx">
                   1.
                   Plaça Universitat<br />
                   2.
