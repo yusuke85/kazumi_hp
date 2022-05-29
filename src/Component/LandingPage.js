@@ -13,7 +13,7 @@ import Blank from "../Images/Blank.gif"
 
 import FuneAudio from "../Audio/Boat.mp3"
 import InsideMetro from "../Audio/OnTheMetro.mp3"
-import MorningSunAudio from "../Audio/Morning.mp3"
+import MorningSunAudio from "../Audio/MorningS.mp3"
 import BusAudio from "../Audio/Bus.mp3"
 import GrassAudio from "../Audio/Grass.mp3"
 import MacbaAudio from "../Audio/Macba.mp3"
@@ -31,17 +31,6 @@ const useAudio = () => {
 
   const toggle = () => setPlaying(!playing);
 
-  // const play = useCallback(() => {
-  //   playing ? audio.play() : audio.pause();
-  //   audio.loop = true;
-  // })
-
-  //   useEffect(() => {function doSomting(){
-  //     playing ? audio.play() : audio.pause();
-  //     audio.loop = true;
-  //   }doSomting()
-  // },[playing, audio]
-  //  );
 
   useEffect(() => {
     playing ? audio.play() : audio.pause();
