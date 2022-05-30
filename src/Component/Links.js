@@ -3,7 +3,7 @@ import useSound from "use-sound";
 import { Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "../Styles/Links.css"
-import SB from "../Images/SamplingBarcelona.jpg"
+import SB from "../Images/SB.jpg"
 import ClickSound from "../Audio/click.wav"
 
 
