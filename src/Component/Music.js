@@ -1,10 +1,10 @@
 import React from "react";
-import Lantern from "../Images/Lantern.jpg"
-import Youtube02 from "../Images/Youtube02.jpg"
-import Youtube03 from "../Images/Youtube03_beingalive.jpg"
-import Youtube04 from "../Images/Youtube04Barceloneta.jpg"
-import Youtube05 from "../Images/Youtube05_mitogui.jpg"
-import BandCamp from "../Images/BandCamp06_SamplingBarcelona.jpeg"
+import Lantern from "../Images/YoutubeImage1.jpg"
+import Youtube02 from "../Images/YoutubeImage2.jpg"
+import Youtube03 from "../Images/YoutubeImage3.jpg"
+import Youtube04 from "../Images/YoutubeImage4.jpg"
+import Youtube05 from "../Images/YoutubeImage5.jpg"
+import BandCamp from "../Images/BandCampImage1.jpeg"
 import "../Styles/Music.css"
 import { Container } from "react-bootstrap";
 
