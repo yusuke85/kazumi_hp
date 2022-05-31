@@ -15,7 +15,7 @@ function Music() {
       <Container>
         <div class="card mb-3" id="musicCards" style={{ maxWidth: "100%" }}>
           <div class="row g-0">
-            <h4>Latest Recordings</h4>
+            {/* <h4>Latest Recordings</h4> */}
             <div class="col-md-3">
               <a href="https://www.youtube.com/watch?v=rq35tFLTQqc" target="blank"><img src={Lantern} id="youTubeImg1" class="img-fluid rounded-sharp" height="200" alt="..." /></a>
             </div>
@@ -25,6 +25,7 @@ function Music() {
                 <p class="card-text">Inspired by Asako Yuzuki's novel "Lantern", I composed it for International Women's Day.</p>
               </div>
             </div>
+
             <div class="col-md-3">
               <a href="https://youtu.be/eVWkArbC7_o" target="blank"><img src={Youtube02} id="youTubeImg2" class="img-fluid rounded-sharp" alt="..." /></a>
             </div>
@@ -36,6 +37,7 @@ function Music() {
               </div>
             </div>
           </div>
+
           <div class="row g-0">
             <div class="col-md-3">
               <a href="https://kazumisakoda.bandcamp.com/album/being-alive" target="blank"><img src={Youtube03} id="youTubeImg3" class="img-fluid rounded-sharp" alt="..." /></a>
@@ -48,6 +50,7 @@ function Music() {
                 </p>
               </div>
             </div>
+
             <div class="col-md-3">
               <a href="https://youtu.be/4Y_GCwwb1r0" target="blank"><img src={Youtube04} id="youTubeImg4" class="img-fluid rounded-sharp" alt="..." /></a>
             </div>
@@ -70,31 +73,26 @@ function Music() {
               <p class="card-text">Summer. The trains on weekends are full for people who go to the sea and those who return from the sea.</p>
             </div>
           </div>
-        </div>
-        <hr />
-        <div class="card mb-3" id="musicCards" style={{ maxWidth: "100%" }}>
-          <div class="row g-0">
-            <h4>bandcamp</h4>
-            <div class="col-md-3">
-              <a href="https://kazumisakoda.bandcamp.com/" target="blank"><img src={BandCamp} id="bandcamp" class="img-fluid rounded-sharp" alt="..." /></a>
-            </div>
-            <div class="col-md-3">
-              <div class="card-body">
-                <h5 class="card-title">2019 "Sampling Barcelona" </h5>
-                <p class="card-text" id="bcCardTx">
-                  1.
-                  Plaça Universitat<br />
-                  2.
-                  Carrer Comtal<br />
-                  3.
-                  Carrer d'En Robador<br />
-                  4.
-                  Plaça dels Àngels<br />
-                </p>
-              </div>
+          <div class="col-md-3">
+            <a href="https://kazumisakoda.bandcamp.com/" target="blank"><img src={BandCamp} id="bandcamp" class="img-fluid rounded-sharp" alt="..." /></a>
+          </div>
+          <div class="col-md-3">
+            <div class="card-body">
+              <h5 class="card-title">2019 "Sampling Barcelona" </h5>
+              <p class="card-text" id="bcCardTx">
+                1.
+                Plaça Universitat<br />
+                2.
+                Carrer Comtal<br />
+                3.
+                Carrer d'En Robador<br />
+                4.
+                Plaça dels Àngels<br />
+              </p>
             </div>
           </div>
         </div>
+
         <div className="footer">
           <div className="footerInner">
             <p className="footerLink">
