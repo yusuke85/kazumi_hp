@@ -4,7 +4,7 @@ import Youtube02 from "../Images/YoutubeImage2.jpg"
 import Youtube03 from "../Images/YoutubeImage3.jpg"
 import Youtube04 from "../Images/YoutubeImage4.jpg"
 import Youtube05 from "../Images/YoutubeImage5.jpg"
-import BandCamp from "../Images/BandCampImage1.jpeg"
+import BandCamp from "../Images/Samplingbarcelona.jpg"
 import "../Styles/Music.css"
 import { Container } from "react-bootstrap";
 
