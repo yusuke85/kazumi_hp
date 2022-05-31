@@ -22,7 +22,7 @@ function Links() {
           <Navbar.Brand id="kazumi" onClick={playOn}>Kazumi Sakoda</Navbar.Brand>
         </LinkContainer>
         <div className="logo">
-          <img src={SB} width="300" id="sbLogo" alt="..." />
+         <img src={SB} width="300" id="sbLogo" alt="..." />
         </div>
         <div className="links">
           <LinkContainer to="/Contact" id="contact" className="rounded float-end">

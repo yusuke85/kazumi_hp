@@ -268,7 +268,7 @@ const LandingPage = () => {
 
 
   return (
-    <body>
+    <>
       <h2 id="pleaseClick">
         Please click on the images!!
       </h2>
@@ -314,7 +314,7 @@ const LandingPage = () => {
           </Col>
         </Row>
       </Container>
-    </body>
+    </>
 
   )
 }

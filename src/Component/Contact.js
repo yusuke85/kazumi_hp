@@ -7,11 +7,11 @@ import "../Styles/Contact.css"
 function Contact() {
 
   return (
-    <Container fluid >
-      <Row fluid >
+    <Container  >
+      <Row >
         <Col md={2} />
         <Col md={5} xs={12}>
-          <img src={ContactPhoto} id="contactPhoto" class="img-fluid" max-width="100%" width="600" height="auto" alt="..." />
+          <img src={ContactPhoto} id="contactPhoto" className="img-fluid" max-width="100%" width="600" height="auto" alt="..." />
         </Col>
         <Col id="contactform" md={3} xs={12}>
           <p className="forContact"> For all booking, hiring, please send correspondence.
