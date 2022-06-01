@@ -17,7 +17,7 @@ import MorningSunAudio from "../Audio/MorningS.mp3"
 import BusAudio from "../Audio/Bus.mp3"
 import GrassAudio from "../Audio/Grass.mp3"
 import MacbaAudio from "../Audio/Macba.mp3"
-import BellAudio from "../Audio/new_kanenooto.mp3"
+import BellAudio from "../Audio/new_Bell.mp3"
 import PingpongAudio from "../Audio/pingpong.wav"
 
 import "../Styles/LandingPage.css"
