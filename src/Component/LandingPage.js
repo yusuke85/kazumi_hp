@@ -9,7 +9,7 @@ import Metro from "../Images/Metro.jpeg"
 import MorningSun from "../Images/MorningSun.jpeg"
 import Pingpong from "../Images/Pingpong.jpeg"
 import Bell from "../Images/Bell.jpeg"
-import Blank from "../Images/Blank.gif"
+import Blank from "../Images/Blank-0001.jpg"
 
 import FuneAudio from "../Audio/Boat.mp3"
 import InsideMetro from "../Audio/OnTheMetro.mp3"
@@ -21,6 +21,8 @@ import BellAudio from "../Audio/new_Bell.mp3"
 import PingpongAudio from "../Audio/pingpong.wav"
 
 import "../Styles/LandingPage.css"
+
+
 
 
 
