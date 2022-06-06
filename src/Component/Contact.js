@@ -15,7 +15,7 @@ function Contact() {
         </Col>
         <Col id="contactform" md={3} xs={12}>
           <p className="forContact"> For all booking, hiring, please send correspondence.
-            <br /><a href="kazumisakodamusic@gmail.com">kazumisakodamusic@gmail.com</a>
+            <br /><p href="kazumisakodamusic@gmail.com">kazumisakodamusic@gmail.com</p>
           </p>
           <div className="snsLinks">
             <ul>
