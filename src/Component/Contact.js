@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import ContactPhoto from "../Images/CONTACT.jpg"
+import ContactPhoto from "../Images/face.jpeg"
 import "../Styles/Contact.css"
 
 
