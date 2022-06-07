@@ -17,7 +17,7 @@ function Music() {
           <div className="row g-0">
             {/* <h4>Latest Recordings</h4> */}
             <div className="col-md-3">
-              <a href="https://www.youtube.com/watch?v=rq35tFLTQqc" target="blank"><img src={Lantern} id="youTubeImg1" className="img-fluid rounded-sharp" height="200" alt="..." /></a>
+              <a href="https://www.youtube.com/watch?v=rq35tFLTQqc" target="blank"><img src={Lantern} id="youTubeImg1" className="img-fluid rounded-sharp" height="200" alt="lanternimg" /></a>
             </div>
             <div className="col-md-3">
               <div className="card-body">
@@ -27,7 +27,7 @@ function Music() {
             </div>
 
             <div className="col-md-3">
-              <a href="https://youtu.be/eVWkArbC7_o" target="blank"><img src={Youtube02} id="youTubeImg2" className="img-fluid rounded-sharp" alt="..." /></a>
+              <a href="https://youtu.be/eVWkArbC7_o" target="blank"><img src={Youtube02} id="youTubeImg2" className="img-fluid rounded-sharp" alt="youtube2img" /></a>
             </div>
             <div className="col-md-3">
               <div className="card-body">
@@ -40,7 +40,7 @@ function Music() {
 
           <div className="row g-0">
             <div className="col-md-3">
-              <a href="https://kazumisakoda.bandcamp.com/album/being-alive" target="blank"><img src={Youtube03} id="youTubeImg3" className="img-fluid rounded-sharp" alt="..." /></a>
+              <a href="https://kazumisakoda.bandcamp.com/album/being-alive" target="blank"><img src={Youtube03} id="youTubeImg3" className="img-fluid rounded-sharp" alt="youtube3img" /></a>
             </div>
             <div className="col-md-3">
               <div className="card-body">
@@ -52,7 +52,7 @@ function Music() {
             </div>
 
             <div className="col-md-3">
-              <a href="https://youtu.be/4Y_GCwwb1r0" target="blank"><img src={Youtube04} id="youTubeImg4" className="img-fluid rounded-sharp" alt="..." /></a>
+              <a href="https://youtu.be/4Y_GCwwb1r0" target="blank"><img src={Youtube04} id="youTubeImg4" className="img-fluid rounded-sharp" alt="youtube4img" /></a>
             </div>
             <div className="col-md-3">
               <div className="card-body">
@@ -65,7 +65,7 @@ function Music() {
         </div>
         <div className="row g-0">
           <div className="col-md-3">
-            <a href="https://soundcloud.com/kazumisakoda/plcataluna-badalona?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="blank"><img src={Youtube05} id="youTubeImg5" className="img-fluid rounded-sharp" alt="..." /></a>
+            <a href="https://soundcloud.com/kazumisakoda/plcataluna-badalona?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="blank"><img src={Youtube05} id="youTubeImg5" className="img-fluid rounded-sharp" alt="youtube5img" /></a>
           </div>
           <div className="col-md-3">
             <div className="card-body">
@@ -74,7 +74,7 @@ function Music() {
             </div>
           </div>
           <div className="col-md-3">
-            <a href="https://kazumisakoda.bandcamp.com/" target="blank"><img src={BandCamp} id="bandcamp" className="img-fluid rounded-sharp" alt="..." /></a>
+            <a href="https://kazumisakoda.bandcamp.com/" target="blank"><img src={BandCamp} id="bandcamp" className="img-fluid rounded-sharp" alt="bandcampimg" /></a>
           </div>
           <div className="col-md-3">
             <div className="card-body">

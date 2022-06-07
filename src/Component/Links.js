@@ -5,6 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import "../Styles/Links.css"
 import SB from "../Images/SB.jpg"
 import ClickSound from "../Audio/click.wav"
+import TopimageSound from "../Audio/TopimageSound.mp3"
 
 
 
@@ -13,6 +14,7 @@ function Links() {
 
 
   const [playOn] = useSound(ClickSound)
+  const [playOn2] = useSound(TopimageSound)
 
 
   return (
@@ -22,7 +24,7 @@ function Links() {
           <Navbar.Brand id="kazumi" onClick={playOn}>Kazumi Sakoda</Navbar.Brand>
         </LinkContainer>
         <div className="logo">
-         <img src={SB} width="300" id="sbLogo" alt="..." />
+         <img src={SB} width="300" id="sbLogo" onClick={playOn2} alt="navimg" />
         </div>
         <div className="links">
           <LinkContainer to="/Contact" id="contact" className="rounded float-end">

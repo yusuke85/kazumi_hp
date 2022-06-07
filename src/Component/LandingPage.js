@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap"
+import React, { useState, useEffect} from "react";
+import { Container, Row, Col } from "react-bootstrap";
+
 
 import Boat from "../Images/Boat.jpeg"
 import Bus from "../Images/Bus.jpeg"
@@ -19,6 +20,7 @@ import GrassAudio from "../Audio/Grass.mp3"
 import MacbaAudio from "../Audio/Macba.mp3"
 import BellAudio from "../Audio/new_Bell.mp3"
 import PingpongAudio from "../Audio/pingpong.wav"
+
 
 import "../Styles/LandingPage.css"
 
@@ -268,6 +270,8 @@ const LandingPage = () => {
     setActive8(!active8)
   }
 
+  
+
 
   return (
     <>
@@ -277,42 +281,42 @@ const LandingPage = () => {
       <Container className="lpPhotos">
         <Row id="item1">
           <Col md={2} sm={2} xs={2}>
-            <img src={Blank} id="blank" className="img-fluid" alt="..." />
+            <img src={Blank} id="blank"  className="img-fluid" alt="blankimg" />
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Bell} id={active6 ? "bell" : ""} className="img-fluid" alt="..." onClick={() => { toggle6(); classToggle6() }} />{playing6}
+            <img src={Bell} id={active6 ? "bell" : ""} className="img-fluid" alt="bellimg" onClick={() => { toggle6(); classToggle6() }} />{playing6}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Blank} id="blank" className="img-fluid" alt="..." />
+            <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Boat} id={active ? "boat" : ""} className="img-fluid" alt="..." onClick={() => { toggle(); classToggle() }} />{playing}
+            <img src={Boat} id={active ? "boat" : ""} className="img-fluid" alt="boatimg" onClick={() => { toggle(); classToggle() }} />{playing}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Grass} id={active5 ? "grass" : ""} className="img-fluid" alt="..." onClick={() => { toggle5(); classToggle5() }} />{playing5}
+            <img src={Grass} id={active5 ? "grass" : ""} className="img-fluid" alt="grassimg" onClick={() => { toggle5(); classToggle5() }} />{playing5}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Pingpong} id={active8 ? "pingpong" : ""} className="img-fluid" alt="..." onClick={() => { toggle8(); classToggle8() }} />{playing8}
+            <img src={Pingpong} id={active8 ? "pingpong" : ""} className="img-fluid" alt="pingpongimg" onClick={() => { toggle8(); classToggle8() }} />{playing8}
           </Col>
         </Row>
         <Row id="item2">
           <Col md={2} sm={2} xs={2}>
-            <img src={Bus} id={active4 ? "bus" : ""} className="img-fluid" alt="..." onClick={() => { toggle4(); classToggle4() }} />{playing4}
+            <img src={Bus} id={active4 ? "bus" : ""} className="img-fluid" alt="busimg" onClick={() => { toggle4(); classToggle4() }} />{playing4}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Blank} id="blank" className="img-fluid" alt="..." />
+            <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Macba01} id={active7 ? "macba" : ""} className="img-fluid" alt="..." onClick={() => { toggle7(); classToggle7() }} />{playing7}
+            <img src={Macba01} id={active7 ? "macba" : ""} className="img-fluid" alt="macbaimg" onClick={() => { toggle7(); classToggle7() }} />{playing7}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Metro} id={active2 ? "metro" : ""} className="img-fluid" alt="..." onClick={() => { toggle2(); classToggle2() }} />{playing2}
+            <img src={Metro} id={active2 ? "metro" : ""} className="img-fluid" alt="metroimg" onClick={() => { toggle2(); classToggle2() }} />{playing2}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={MorningSun} id={active3 ? "morningSun" : ""} className="img-fluid" alt="..." onClick={() => { toggle3(); classToggle3() }} />{playing3}
+            <img src={MorningSun} id={active3 ? "morningSun" : ""} className="img-fluid" alt="morningimg" onClick={() => { toggle3(); classToggle3() }} />{playing3}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img src={Blank} id="blank" className="img-fluid" alt="..." />
+            <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>
         </Row>
       </Container>

@@ -10,7 +10,7 @@ const Bio = () => {
       <Row >
         <Col md={2} />
         <Col md={8}>
-          <img src={Image} id="kazumi1" className="img-fluid" alt="..." />
+          <img src={Image} id="kazumi1" className="img-fluid" alt="bioImage" />
         </Col>
       </Row>
       <Row >
