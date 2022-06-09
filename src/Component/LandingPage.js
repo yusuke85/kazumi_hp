@@ -61,171 +61,16 @@ const useAudio = (
   return [playing, toggle];
 };
 
-// -------------------------------------------------//
-
-// const useAudio2 = () => {
-//   const [audio] = useState(new Audio(InsideMetro));
-//   const [playing, setPlaying] = useState(false);
-
-//   const toggle = () => setPlaying(!playing);
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }, [playing, audio]);
-
-//   useEffect(() => {
-//     audio.addEventListener("ended", () => setPlaying(false));
-//     return () => {
-//       audio.removeEventListener("ended", () => setPlaying(false));
-//     };
-//   }, [audio]);
-
-//   return [playing, toggle];
-// };
-
-// -------------------------------------------------//
-
-// const useAudio3 = () => {
-//   const [audio] = useState(new Audio(MorningSunAudio));
-//   const [playing, setPlaying] = useState(false);
-
-//   const toggle = () => setPlaying(!playing);
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }, [playing, audio]);
-
-//   useEffect(() => {
-//     audio.addEventListener("ended", () => setPlaying(false));
-//     return () => {
-//       audio.removeEventListener("ended", () => setPlaying(false));
-//     };
-//   }, [audio]);
-
-//   return [playing, toggle];
-// };
-// -------------------------------------------------//
-
-// const useAudio4 = () => {
-//   const [audio] = useState(new Audio(BusAudio));
-//   const [playing, setPlaying] = useState(false);
-
-//   const toggle = () => setPlaying(!playing);
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }, [playing, audio]);
-
-//   useEffect(() => {
-//     audio.addEventListener("ended", () => setPlaying(false));
-//     return () => {
-//       audio.removeEventListener("ended", () => setPlaying(false));
-//     };
-//   }, [audio]);
-
-//   return [playing, toggle];
-// };
-// -------------------------------------------------//
-
-// const useAudio5 = () => {
-//   const [audio] = useState(new Audio(GrassAudio));
-//   const [playing, setPlaying] = useState(false);
-
-//   const toggle = () => setPlaying(!playing);
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }, [playing, audio]);
-
-//   useEffect(() => {
-//     audio.addEventListener("ended", () => setPlaying(false));
-//     return () => {
-//       audio.removeEventListener("ended", () => setPlaying(false));
-//     };
-//   }, [audio]);
-
-//   return [playing, toggle];
-// };
-// // -------------------------------------------------//
-
-// const useAudio6 = () => {
-//   const [audio] = useState(new Audio(BellAudio));
-//   const [playing, setPlaying] = useState(false);
-
-//   const toggle = () => setPlaying(!playing);
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }, [playing, audio]);
-
-//   useEffect(() => {
-//     audio.addEventListener("ended", () => setPlaying(false));
-//     return () => {
-//       audio.removeEventListener("ended", () => setPlaying(false));
-//     };
-//   }, [audio]);
-
-//   return [playing, toggle];
-// };
-// // -------------------------------------------------//
-
-// const useAudio7 = () => {
-//   const [audio] = useState(new Audio(MacbaAudio));
-//   const [playing, setPlaying] = useState(false);
-
-//   const toggle = () => setPlaying(!playing);
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }, [playing, audio]);
-
-//   useEffect(() => {
-//     audio.addEventListener("ended", () => setPlaying(false));
-//     return () => {
-//       audio.removeEventListener("ended", () => setPlaying(false));
-//     };
-//   }, [audio]);
-
-//   return [playing, toggle];
-// };
-// // -------------------------------------------------//
-
-// const useAudio8 = () => {
-//   const [audio] = useState(new Audio(PingpongAudio));
-//   const [playing, setPlaying] = useState(false);
-
-//   const toggle = () => setPlaying(!playing);
-
-//   useEffect(() => {
-//     playing ? audio.play() : audio.pause();
-//     audio.loop = true;
-//   }, [playing, audio]);
-
-//   useEffect(() => {
-//     audio.addEventListener("ended", () => setPlaying(false));
-//     return () => {
-//       audio.removeEventListener("ended", () => setPlaying(false));
-//     };
-//   }, [audio]);
-
-//   return [playing, toggle];
-// };
 
 const LandingPage = () => {
-  const [playing, toggle] = useAudio(FuneAudio);
-  // const [playing2, toggle2] = useAudio2(InsideMetro);
-  // const [playing3, toggle3] = useAudio3(MorningSunAudio);
-  // const [playing4, toggle4] = useAudio4(BusAudio);
-  // const [playing5, toggle5] = useAudio5(GrassAudio);
-  // const [playing6, toggle6] = useAudio6(BellAudio);
-  // const [playing7, toggle7] = useAudio7(MacbaAudio);
-  // const [playing8, toggle8] = useAudio8(PingpongAudio);
+  const [playingFune, toggleFune] = useAudio(FuneAudio);
+  const [playingInsideMetro, toggleInsideMetro] = useAudio(InsideMetro);
+  const [playingMorningSunAudio, toggleMorningSunAudio] = useAudio(MorningSunAudio);
+  const [playingBusAudio, toggleBusAudio] = useAudio(BusAudio);
+  const [playingGrassAudio, toggleGrassAudio] = useAudio(GrassAudio);
+  const [playingBellAudio, toggleBellAudio] = useAudio(BellAudio);
+  const [playingMacbaAudio, toggleMacbaAudio] = useAudio(MacbaAudio);
+  const [playingPingpongAudio, togglePingpongAudio] = useAudio(PingpongAudio);
 
   const [active, setActive] = useState(false);
   const classToggle = () => {
@@ -275,11 +120,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="bellimg"
               onClick={() => {
-                // toggle6();
+                toggleBellAudio();
                 classToggle6();
               }}
             />
-            {/* {playing6} */}
+            {playingBellAudio}
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
@@ -291,11 +136,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="boatimg"
               onClick={() => {
-                toggle();
+                toggleFune();
                 classToggle();
               }}
             />
-            {playing}
+            {playingFune}
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img
@@ -304,11 +149,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="grassimg"
               onClick={() => {
-                // toggle5();
+                toggleGrassAudio();
                 classToggle5();
               }}
             />
-            {/* {playing5} */}
+            {playingGrassAudio}
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img
@@ -317,11 +162,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="pingpongimg"
               onClick={() => {
-                // toggle8();
+                togglePingpongAudio();
                 classToggle8();
               }}
             />
-            {/* {playing8} */}
+            {playingPingpongAudio}
           </Col>
         </Row>
         <Row id="item2">
@@ -332,11 +177,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="busimg"
               onClick={() => {
-                // toggle4();
+                toggleBusAudio();
                 classToggle4();
               }}
             />
-            {/* {playing4} */}
+            {playingBusAudio}
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
@@ -348,11 +193,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="macbaimg"
               onClick={() => {
-                // toggle7();
+                toggleMacbaAudio();
                 classToggle7();
               }}
             />
-            {/* {playing7} */}
+            {playingMacbaAudio}
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img
@@ -361,11 +206,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="metroimg"
               onClick={() => {
-                // toggle2();
+                toggleInsideMetro();
                 classToggle2();
               }}
             />
-            {/* {playing2} */}
+            {playingInsideMetro}
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img
@@ -374,11 +219,11 @@ const LandingPage = () => {
               className="img-fluid"
               alt="morningimg"
               onClick={() => {
-                // toggle3();
+                toggleMorningSunAudio();
                 classToggle3();
               }}
             />
-            {/* {playing3} */}
+            {playingMorningSunAudio}
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
