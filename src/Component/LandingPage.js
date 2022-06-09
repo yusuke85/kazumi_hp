@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Boat from "../Images/Boat.jpeg";
@@ -62,7 +62,7 @@ const useAudio = (
 };
 
 
-const LandingPage = () => {
+const LandingPage = (props) => {
   const [playingFune, toggleFune] = useAudio(FuneAudio);
   const [playingInsideMetro, toggleInsideMetro] = useAudio(InsideMetro);
   const [playingMorningSunAudio, toggleMorningSunAudio] = useAudio(MorningSunAudio);
@@ -76,35 +76,7 @@ const LandingPage = () => {
   const classToggle = () => {
     setActive(!active);
   };
-  const [active2, setActive2] = useState(false);
-  const classToggle2 = () => {
-    setActive2(!active2);
-  };
-  const [active3, setActive3] = useState(false);
-  const classToggle3 = () => {
-    setActive3(!active3);
-  };
-  const [active4, setActive4] = useState(false);
-  const classToggle4 = () => {
-    setActive4(!active4);
-  };
-  const [active5, setActive5] = useState(false);
-  const classToggle5 = () => {
-    setActive5(!active5);
-  };
-  const [active6, setActive6] = useState(false);
-  const classToggle6 = () => {
-    setActive6(!active6);
-  };
-  const [active7, setActive7] = useState(false);
-  const classToggle7 = () => {
-    setActive7(!active7);
-  };
-  const [active8, setActive8] = useState(false);
-  const classToggle8 = () => {
-    setActive8(!active8);
-  };
-
+  
   return (
     <>
       <h2 id="pleaseClick">Please click on the images!!</h2>
@@ -116,12 +88,12 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img
               src={Bell}
-              id={active6 ? "bell" : ""}
+              id={active ? "bell" : ""}
               className="img-fluid"
               alt="bellimg"
               onClick={() => {
                 toggleBellAudio();
-                classToggle6();
+                classToggle();
               }}
             />
             {playingBellAudio}
@@ -145,12 +117,12 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img
               src={Grass}
-              id={active5 ? "grass" : ""}
+              id={active ? "grass" : ""}
               className="img-fluid"
               alt="grassimg"
               onClick={() => {
                 toggleGrassAudio();
-                classToggle5();
+                classToggle();
               }}
             />
             {playingGrassAudio}
@@ -158,12 +130,12 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img
               src={Pingpong}
-              id={active8 ? "pingpong" : ""}
+              id={active ? "pingpong" : ""}
               className="img-fluid"
               alt="pingpongimg"
               onClick={() => {
                 togglePingpongAudio();
-                classToggle8();
+                classToggle();
               }}
             />
             {playingPingpongAudio}
@@ -173,12 +145,12 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img
               src={Bus}
-              id={active4 ? "bus" : ""}
+              id={active ? "bus" : ""}
               className="img-fluid"
               alt="busimg"
               onClick={() => {
                 toggleBusAudio();
-                classToggle4();
+                classToggle();
               }}
             />
             {playingBusAudio}
@@ -189,12 +161,12 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img
               src={Macba01}
-              id={active7 ? "macba" : ""}
+              id={active ? "macba" : ""}
               className="img-fluid"
               alt="macbaimg"
               onClick={() => {
                 toggleMacbaAudio();
-                classToggle7();
+                classToggle();
               }}
             />
             {playingMacbaAudio}
@@ -202,12 +174,12 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img
               src={Metro}
-              id={active2 ? "metro" : ""}
+              id={active ? "metro" : ""}
               className="img-fluid"
               alt="metroimg"
               onClick={() => {
                 toggleInsideMetro();
-                classToggle2();
+                classToggle();
               }}
             />
             {playingInsideMetro}
@@ -215,12 +187,12 @@ const LandingPage = () => {
           <Col md={2} sm={2} xs={2}>
             <img
               src={MorningSun}
-              id={active3 ? "morningSun" : ""}
+              id={active ? "morningSun" : ""}
               className="img-fluid"
               alt="morningimg"
               onClick={() => {
                 toggleMorningSunAudio();
-                classToggle3();
+                classToggle();
               }}
             />
             {playingMorningSunAudio}
@@ -235,3 +207,33 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
+// const [active2, setActive2] = useState(false);
+  // const classToggle2 = () => {
+  //   setActive2(!active2);
+  // };
+  // const [active3, setActive3] = useState(false);
+  // const classToggle3 = () => {
+  //   setActive3(!active3);
+  // };
+  // const [active4, setActive4] = useState(false);
+  // const classToggle4 = () => {
+  //   setActive4(!active4);
+  // };
+  // const [active5, setActive5] = useState(false);
+  // const classToggle5 = () => {
+  //   setActive5(!active5);
+  // };
+  // const [active6, setActive6] = useState(false);
+  // const classToggle6 = () => {
+  //   setActive6(!active6);
+  // };
+  // const [active7, setActive7] = useState(false);
+  // const classToggle7 = () => {
+  //   setActive7(!active7);
+  // };
+  // const [active8, setActive8] = useState(false);
+  // const classToggle8 = () => {
+  //   setActive8(!active8);
+  // };
+
