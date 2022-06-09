@@ -24,23 +24,10 @@ import "../Styles/LandingPage.css";
 
 const useAudio = (
   InsideMetro,
-  FuneAudio,
-  MorningSunAudio,
-  BusAudio,
-  GrassAudio,
-  BellAudio,
-  MacbaAudio,
-  PingpongAudio
 ) => {
   let audio = new Audio(
     InsideMetro,
-    FuneAudio,
-    MorningSunAudio,
-    BusAudio,
-    GrassAudio,
-    BellAudio,
-    MacbaAudio,
-    PingpongAudio
+    
   );
   const [playing, setPlaying] = useState(false);
 
@@ -62,7 +49,7 @@ const useAudio = (
 };
 
 
-const LandingPage = (props) => {
+const LandingPage = () => {
   const [playingFune, toggleFune] = useAudio(FuneAudio);
   const [playingInsideMetro, toggleInsideMetro] = useAudio(InsideMetro);
   const [playingMorningSunAudio, toggleMorningSunAudio] = useAudio(MorningSunAudio);
@@ -207,33 +194,3 @@ const LandingPage = (props) => {
 };
 
 export default LandingPage;
-
-// const [active2, setActive2] = useState(false);
-  // const classToggle2 = () => {
-  //   setActive2(!active2);
-  // };
-  // const [active3, setActive3] = useState(false);
-  // const classToggle3 = () => {
-  //   setActive3(!active3);
-  // };
-  // const [active4, setActive4] = useState(false);
-  // const classToggle4 = () => {
-  //   setActive4(!active4);
-  // };
-  // const [active5, setActive5] = useState(false);
-  // const classToggle5 = () => {
-  //   setActive5(!active5);
-  // };
-  // const [active6, setActive6] = useState(false);
-  // const classToggle6 = () => {
-  //   setActive6(!active6);
-  // };
-  // const [active7, setActive7] = useState(false);
-  // const classToggle7 = () => {
-  //   setActive7(!active7);
-  // };
-  // const [active8, setActive8] = useState(false);
-  // const classToggle8 = () => {
-  //   setActive8(!active8);
-  // };
-
