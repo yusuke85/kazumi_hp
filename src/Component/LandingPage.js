@@ -1,5 +1,6 @@
 import React, { useState, useEffect,} from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import  ClickableImage  from "./ClickableImage";
 
 import Boat from "../Images/Boat.jpeg";
 import Bus from "../Images/Bus.jpeg";
@@ -22,24 +23,23 @@ import PingpongAudio from "../Audio/pingpong.wav";
 
 import "../Styles/LandingPage.css";
 
-const useAudio = (
-  InsideMetro,
-) => {
-  let audio = new Audio(
-    InsideMetro,
-    
-  );
+const useAudio = (soundSrc) => { 
+  
+  let audio = new Audio (soundSrc);
   const [playing, setPlaying] = useState(false);
-
+  
   const toggle = () => setPlaying(!playing);
-
-  const stopPlaying = () => setPlaying(false);
-
+  
   useEffect(() => {
     playing ? audio.play() : audio.pause();
     audio.loop = true;
-  }, [playing, audio]);
-
+  },
+  [playing, audio]
+   );
+  
+  const stopPlaying = () => setPlaying(false);
+  
+  
   useEffect(() => {
     audio.addEventListener("ended", stopPlaying);
     return () => audio.removeEventListener("ended", stopPlaying);
@@ -73,72 +73,34 @@ const LandingPage = () => {
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={Bell}
-              id={active ? "bell" : ""}
-              className="img-fluid"
-              alt="bellimg"
-              onClick={() => {
-                toggleBellAudio();
-                classToggle();
-              }}
+            <img src={Bell} id={active ? "bell" : ""} className="img-fluid" alt="bellimg" onClick={() => { toggleBellAudio(); classToggle();}}
             />
             {playingBellAudio}
+          <ClickableImage imgSrc={Bell} imgAlt="picture of a bell" audioSrc={BellAudio} />
           </Col>
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={Boat}
-              id={active ? "boat" : ""}
-              className="img-fluid"
-              alt="boatimg"
-              onClick={() => {
-                toggleFune();
-                classToggle();
-              }}
+            <img src={Boat} id={active ? "boat" : ""} className="img-fluid" alt="boatimg" onClick={() => { toggleFune();
+              classToggle(); }}
             />
             {playingFune}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={Grass}
-              id={active ? "grass" : ""}
-              className="img-fluid"
-              alt="grassimg"
-              onClick={() => {
-                toggleGrassAudio();
-                classToggle();
-              }}
+            <img src={Grass} id={active ? "grass" : ""} className="img-fluid" alt="grassimg" onClick={() => { toggleGrassAudio(); classToggle(); }}
             />
             {playingGrassAudio}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={Pingpong}
-              id={active ? "pingpong" : ""}
-              className="img-fluid"
-              alt="pingpongimg"
-              onClick={() => {
-                togglePingpongAudio();
-                classToggle();
-              }}
+            <img src={Pingpong} id={active ? "pingpong" : ""} className="img-fluid" alt="pingpongimg" onClick={() => { togglePingpongAudio(); classToggle(); }}
             />
             {playingPingpongAudio}
           </Col>
         </Row>
         <Row id="item2">
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={Bus}
-              id={active ? "bus" : ""}
-              className="img-fluid"
-              alt="busimg"
-              onClick={() => {
-                toggleBusAudio();
-                classToggle();
-              }}
+            <img src={Bus} id={active ? "bus" : ""} className="img-fluid" alt="busimg" onClick={() => { toggleBusAudio(); classToggle(); }}
             />
             {playingBusAudio}
           </Col>
@@ -146,41 +108,17 @@ const LandingPage = () => {
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={Macba01}
-              id={active ? "macba" : ""}
-              className="img-fluid"
-              alt="macbaimg"
-              onClick={() => {
-                toggleMacbaAudio();
-                classToggle();
-              }}
+            <img src={Macba01} id={active ? "macba" : ""} className="img-fluid" alt="macbaimg" onClick={() => { toggleMacbaAudio(); classToggle(); }}
             />
             {playingMacbaAudio}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={Metro}
-              id={active ? "metro" : ""}
-              className="img-fluid"
-              alt="metroimg"
-              onClick={() => {
-                toggleInsideMetro();
-                classToggle();
-              }}
+            <img src={Metro} id={active ? "metro" : ""} className="img-fluid" alt="metroimg" onClick={() => { toggleInsideMetro(); classToggle(); }}
             />
             {playingInsideMetro}
           </Col>
           <Col md={2} sm={2} xs={2}>
-            <img
-              src={MorningSun}
-              id={active ? "morningSun" : ""}
-              className="img-fluid"
-              alt="morningimg"
-              onClick={() => {
-                toggleMorningSunAudio();
-                classToggle();
-              }}
+            <img src={MorningSun} id={active ? "morningSun" : ""} className="img-fluid" alt="morningimg" onClick={() => { toggleMorningSunAudio(); classToggle(); }}
             />
             {playingMorningSunAudio}
           </Col>
