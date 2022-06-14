@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import {Col} from "react-bootstrap";
+import "../Styles/LandingPage.css";
 
 
 export function ClickableImage({ imgSrc, imgAlt, audioSrc }) {
 
     let audio = new Audio (audioSrc);
+    
     const [playing, setPlaying] = useState(false);
     
     const toggleAudio = () => setPlaying(!playing);
@@ -34,8 +36,7 @@ export function ClickableImage({ imgSrc, imgAlt, audioSrc }) {
     <Col md={2} sm={2} xs={2}>
       <img
         src={imgSrc}
-        
-        className={"img-fluid" + (active ? "bell" : "")}
+        className={"img-fluid" + (active ? "boat" : "")}
         alt={imgAlt}
         onClick={() => {
           toggleAudio();
