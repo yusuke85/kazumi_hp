@@ -18,18 +18,16 @@ export function ClickableImage({ imgSrc, imgAlt, audioSrc }) {
     [playing, audio]
      );
     
-    const stopPlaying = () => setPlaying(false);
-    
-    
-    useEffect(() => {
+     useEffect(() => {
+      const stopPlaying = () => setPlaying(false);
       audio.addEventListener("ended", stopPlaying);
       return () => audio.removeEventListener("ended", stopPlaying);
     }, [audio]);
-
+    
     const [active, setActive] = useState(false);
     const classToggle = () => {
     setActive(!active);
-
+    
     return [playing, toggleAudio];
   }
 
@@ -46,7 +44,7 @@ export function ClickableImage({ imgSrc, imgAlt, audioSrc }) {
         }}
         />  
     </Col>
-      
+
     )
   };
 
