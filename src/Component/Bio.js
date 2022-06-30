@@ -35,7 +35,10 @@ const Bio = () => {
           <h3>
             Live / Performance
           </h3>
+          <hr />
           <p className="text-center">
+            <a href="https://www.mixcloud.com/Teslafm_net/deltagrama-5-soul-twin/" target="blank">2022 TeslaFM Deltagrama #5 - Soul Twin</a> < br />
+            <a href="https://youtu.be/638UDoMve4c" target="blank">2022 Streaming live at SubRadio , "Lantern", Barcelona</a> < br />
             2022   Teorema Festival Barcelona, ”Lantern”, Barcelona < br />
             2022   IWD | MUTEK Barcelona Edition 13, "Lantern", Casa Bonay, Barcelona< br />
             2021   Teorema Festival Barcelona, ”el bosque corrompido”, Barcelona< br />

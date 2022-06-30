@@ -21,8 +21,8 @@ import MacbaAudio from "../Audio/Macba.mp3";
 import BellAudio from "../Audio/new_Bell.mp3";
 import PingpongAudio from "../Audio/pingpong.wav";
 
-
 const LandingPage = () => {
+ 
 
   return (
     <>
