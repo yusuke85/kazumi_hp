@@ -19,3 +19,8 @@
   margin-bottom: 40px;
   font-family: Andale Mono, monospace;
 }
+
+p a {
+  text-decoration: none;
+  color: black;
+}

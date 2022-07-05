@@ -22,10 +22,15 @@ import BellAudio from "../Audio/new_Bell.mp3";
 import PingpongAudio from "../Audio/pingpong.wav";
 
 const LandingPage = () => {
+
  
 
   return (
     <>
+    <div class="sample01">
+ <p>Next live ※Tokio※14 / 8 / 2022 in shibuyavalley ※Gifu※ 19 / 8 / 2022 in slowroom ※Delta del Ebro※ 15 / 10 / 2022 in Mind Fest </p> 
+ </div>
+ 
       <h2 id="pleaseClick">Please click on the images!!</h2>
       <Container className="lpPhotos">
         <Row id="item1">

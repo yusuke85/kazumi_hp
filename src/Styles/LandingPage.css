@@ -10,7 +10,7 @@
   padding-top: 12px;
 }
 #pleaseClick{
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
   font-family: Andale Mono, monospace;
 }
@@ -61,3 +61,28 @@
     font-size: 21px;
   }
 }
+
+.sample01 {
+  background-color: black;
+  margin :0;
+  width : 100%;
+  font-size : 25px;
+  text-align : center;
+  overflow : hidden;
+  }
+
+  .sample01 p{
+  margin:0;
+  color: chartreuse;
+  display : inline-block;
+  padding-left: 100%;
+  white-space : nowrap;
+  line-height : 1em;
+  animation : scrollSample01 20s linear infinite;
+  }
+
+  @keyframes scrollSample01{
+  0% { transform: translateX(0)}
+  100% { transform: translateX(-100%)}
+  }
+  

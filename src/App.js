@@ -8,17 +8,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-const App = () => {
-
-  
-
+function App() {
   return (
       <Router>
     <div className="App">
       <Links />
       <Routes>
-      <Route exact path="/" element={<LandingPage /> } />
+      <Route exact path="/" element={<LandingPage />} />
       <Route exact path="Bio" element={<Bio />} />
       <Route exact path="Music" element={<Music />} />
       <Route exact path="Contact" element={<Contact />} />
@@ -29,4 +25,5 @@ const App = () => {
 }
 
 export default App;
+     
 
