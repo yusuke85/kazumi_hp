@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ClickableImage from "./ClickableImage";
 
@@ -12,7 +12,7 @@ import Pingpong from "../Images/Pingpong.jpeg";
 import Bell from "../Images/Bell.jpeg";
 import Blank from "../Images/Blank-0001.jpg";
 
-import FuneAudio from "../Audio/Boat.mp3";
+// import FuneAudio from "../Audio/Boat.mp3";
 import InsideMetro from "../Audio/OnTheMetro.mp3";
 import MorningSunAudio from "../Audio/MorningS.mp3";
 import BusAudio from "../Audio/Bus.mp3";
@@ -21,8 +21,14 @@ import MacbaAudio from "../Audio/Macba.mp3";
 import BellAudio from "../Audio/new_Bell.mp3";
 import PingpongAudio from "../Audio/pingpong.wav";
 
-const LandingPage = () => {
+const LandingPage = ({ playing, setPlaying }) => {
 
+  const [active, setActive] = useState(false);
+  const classToggle = () => {
+    setActive(!active);
+
+    return [playing];
+  };
  
 
   return (
@@ -47,10 +53,15 @@ const LandingPage = () => {
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>{" "}
           <ClickableImage
-            imgSrc={Boat}
-            activeClass="boat"
-            imgAlt="picture of a boat"
-            audioSrc={FuneAudio}
+          imgSrc={Boat}
+          activeClass="boat"
+          imgAlt="picture of a boat"
+          active={playing === "picture of a boat"}
+          onClick={() => setPlaying ("picture of a boat")} 
+            // imgSrc={Boat}
+            // activeClass="boat"
+            // imgAlt="picture of a boat"
+            // audioSrc={FuneAudio}
           />
           <ClickableImage
             imgSrc={Grass}
