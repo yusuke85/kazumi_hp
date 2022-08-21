@@ -12,7 +12,7 @@ import Pingpong from "../Images/Pingpong.jpeg";
 import Bell from "../Images/Bell.jpeg";
 import Blank from "../Images/Blank-0001.jpg";
 
-// import FuneAudio from "../Audio/Boat.mp3";
+import FuneAudio from "../Audio/Boat.mp3";
 import InsideMetro from "../Audio/OnTheMetro.mp3";
 import MorningSunAudio from "../Audio/MorningS.mp3";
 import BusAudio from "../Audio/Bus.mp3";
@@ -26,22 +26,22 @@ const LandingPage = ({ playing, setPlaying }) => {
   const [active, setActive] = useState(false);
   const classToggle = () => {
     setActive(!active);
-
     return [playing];
   };
  
 
   return (
     <>
-    <div class="sample01">
+    {/* <div class="sample01">
  <p>Next live ※Tokio※14 / 8 / 2022 in shibuyavalley ※Gifu※ 19 / 8 / 2022 in slowroom ※Delta del Ebro※ 15 / 10 / 2022 in Mind Fest </p> 
- </div>
+ </div> */}
  
       <h2 id="pleaseClick">Please click on the images!!</h2>
       <Container className="lpPhotos">
         <Row id="item1">
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
+          
           </Col>
           <ClickableImage
             imgSrc={Bell}
@@ -52,17 +52,14 @@ const LandingPage = ({ playing, setPlaying }) => {
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>{" "}
+
           <ClickableImage
-          imgSrc={Boat}
-          activeClass="boat"
-          imgAlt="picture of a boat"
-          active={playing === "picture of a boat"}
-          onClick={() => setPlaying ("picture of a boat")} 
-            // imgSrc={Boat}
-            // activeClass="boat"
-            // imgAlt="picture of a boat"
-            // audioSrc={FuneAudio}
+            imgSrc={Boat}
+            activeClass="boat"
+            imgAlt="picture of a boat"
+            audioSrc={FuneAudio}
           />
+          
           <ClickableImage
             imgSrc={Grass}
             className="grass"
