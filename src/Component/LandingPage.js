@@ -32,9 +32,9 @@ const LandingPage = ({ playing, setPlaying }) => {
 
   return (
     <>
-    {/* <div class="sample01">
- <p>Next live ※Tokio※14 / 8 / 2022 in shibuyavalley ※Gifu※ 19 / 8 / 2022 in slowroom ※Delta del Ebro※ 15 / 10 / 2022 in Mind Fest </p> 
- </div> */}
+    <div class="sample01">
+ <p>Next live ※Barcelona※ 02 / 10 / 2022 in ConventAguti</p> 
+ </div>
  
       <h2 id="pleaseClick">Please click on the images!!</h2>
       <Container className="lpPhotos">
