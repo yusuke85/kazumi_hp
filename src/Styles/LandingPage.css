@@ -78,7 +78,7 @@
   padding-left: 100%;
   white-space : nowrap;
   line-height : 1em;
-  animation : scrollSample01 20s linear infinite;
+  animation : scrollSample01 14s linear infinite;
   }
 
   @keyframes scrollSample01{
