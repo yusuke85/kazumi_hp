@@ -34,16 +34,30 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
-            2022   Zona Watusa Festival 5to anniversario,"Osenchi Tokyo", Barcelona <br />
-            2022 el prat rádio, Rastros de Carmín, Barcelona 26 set, 2022 <a href="https://www.elprat.digital/radio/rastros-de-carmin-63/">Link</a><br />
-            2022 街のノイズ, "Lantern", slow room, Gifu Cassette Jam Session <a href="https://soundcloud.app.goo.gl/hwJMrEVdKSRj4R7r7">Link</a>< br/>
+            2022 Teorema Festival Barcelona 2022, "tokyo-barcelona", Barcelona<br />
+            2022 MIND FEST, "tokyo-barcelona", Castell d'Amposta <br />
+            2022 Zona Watusa Festival 5to anniversario,"Osenchi Tokyo", Barcelona <br />
+            2022 el prat rádio, Rastros de Carmín, Barcelona 26 set, 2022
+            <a href="https://www.elprat.digital/radio/rastros-de-carmin-63/" target="blank">
+              Link
+            </a>
+            <br />
+            2022 街のノイズ, "Lantern", slow room, Gifu Cassette Jam Session
+            <a href="https://soundcloud.app.goo.gl/hwJMrEVdKSRj4R7r7" target="blank">Link</a>
+            <br />
             2022 屋上環境音02, "Lantern", Shibuya valley, Tokyo <br />
-            2022 TeslaFM Deltagrama #5 - Soul Twin <a
+            2022 TeslaFM Deltagrama #5 - Soul Twin
+            <a
               href="https://www.mixcloud.com/Teslafm_net/deltagrama-5-soul-twin/"
               target="blank"
-            >Link</a>
+            >
+              Link
+            </a>
             <br />
-            2022 Streaming live at SubRadio , "Lantern", Barcelona <a href="https://youtu.be/638UDoMve4c" target="blank">Link</a>
+            2022 Streaming live at SubRadio , "Lantern", Barcelona
+            <a href="https://youtu.be/638UDoMve4c" target="blank">
+              Link
+            </a>
             <br />
             2022 Teorema Festival Barcelona, ”Lantern”, Barcelona <br />
             2022 IWD | MUTEK Barcelona Edition 13, "Lantern", Casa Bonay,
