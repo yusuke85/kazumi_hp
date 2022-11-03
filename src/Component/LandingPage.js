@@ -33,7 +33,7 @@ const LandingPage = ({ playing, setPlaying }) => {
   return (
     <>
     <div class="sample01">
- <p>Next ※Barcelona※22/11- 26/11 [Instalación] Recorreguts Sonors 2022 @convento Sant Agustí</p> 
+ <p>Next ※Barcelona※22/11- 26/11[Instalación] Recorreguts Sonors 2022 @convento Sant Agustí</p> 
  </div>
  
       <h2 id="pleaseClick">Please click on the images!!</h2>
