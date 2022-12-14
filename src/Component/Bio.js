@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../Images/bio3.jpg";
+import Image2 from "../Images/Installation01.JPG";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/Bio.css";
 
@@ -16,6 +17,7 @@ const Bio = () => {
         <Col md={2} />
         <Col md={8}>
           <h3>BIO</h3>
+          <hr />
           <p className="text-center">
             Kazumi Sakoda, a Japanese artist based in Barcelona for the last 4
             years, investigates through the sounds she collects from the streets
@@ -26,6 +28,11 @@ const Bio = () => {
             of these cassettes, sampling and recordings of urban soundscapes,
             his compositions blur the genres of experimental and noise music.
           </p>
+          <h3>Installation</h3>
+          <hr />
+          <img src={Image2} id="kazumi2" className="img-fluid" alt="InstallationImage" />
+           <p>2022 Recorreguts Sonors, ”el bosque corrompido”, convento Sant Agustí</p>
+
         </Col>
       </Row>
       <Row>
@@ -34,6 +41,10 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
+            2022 live at Flushing Toilets collaborated Museo de Arte UNMSM <a href="https://youtu.be/fgxIPZr8k-o" target="blank">
+              Link
+            </a>
+            <br />
             2022 Teorema Festival Barcelona 2022, "tokyo-barcelona", Barcelona<br />
             2022 MIND FEST, "tokyo-barcelona", Castell d'Amposta <br />
             2022 Zona Watusa Festival 5to anniversario,"Osenchi Tokyo", Barcelona <br />
@@ -47,16 +58,12 @@ const Bio = () => {
             <br />
             2022 屋上環境音02, "Lantern", Shibuya valley, Tokyo <br />
             2022 TeslaFM Deltagrama #5 - Soul Twin
-            <a
-              href="https://www.mixcloud.com/Teslafm_net/deltagrama-5-soul-twin/"
-              target="blank"
-            >
-              Link
+            <a href="https://www.mixcloud.com/Teslafm_net/deltagrama-5-soul-twin/"
+              target="blank"> Link
             </a>
             <br />
             2022 Streaming live at SubRadio , "Lantern", Barcelona
-            <a href="https://youtu.be/638UDoMve4c" target="blank">
-              Link
+            <a href="https://youtu.be/638UDoMve4c" target="blank"> Link
             </a>
             <br />
             2022 Teorema Festival Barcelona, ”Lantern”, Barcelona <br />
