@@ -41,14 +41,15 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
-            2022 live at Flushing Toilets collaborated Museo de Arte UNMSM <a href="https://youtu.be/fgxIPZr8k-o" target="blank">
+            2023 APS, Live with Mohamed Khtira (Gnawa music), Meteoro, Barcelona<br />
+            2022 Live at Flushing Toilets collaborated Museo de Arte UNMSM <a href="https://youtu.be/fgxIPZr8k-o" target="blank">
               Link
             </a>
             <br />
             2022 Teorema Festival Barcelona 2022, "tokyo-barcelona", Barcelona<br />
             2022 MIND FEST, "tokyo-barcelona", Castell d'Amposta <br />
             2022 Zona Watusa Festival 5to anniversario,"Osenchi Tokyo", Barcelona <br />
-            2022 el prat rádio, Rastros de Carmín, Barcelona 26 set, 2022
+            2022 El prat rádio, Rastros de Carmín, Barcelona 26 set, 2022
             <a href="https://www.elprat.digital/radio/rastros-de-carmin-63/" target="blank">
               Link
             </a>
