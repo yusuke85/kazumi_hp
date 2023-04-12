@@ -19,7 +19,7 @@ const Bio = () => {
           <h3>BIO</h3>
           <hr />
           <p className="text-center">
-            Kazumi Sakoda, a Japanese artist based in Barcelona for the last 4
+            Kazumi Sakoda, a Japanese artist based in Barcelona for the last 5
             years, investigates through the sounds she collects from the streets
             of Barcelona,the sound differences between the city and the sounds
             of the city of Tokyo, where she was born and grew up. <br />
@@ -41,6 +41,8 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
+            2023   MOSTRA ,”Sampling Barcelona” y “VHS terminal”, Hangar.org, Barcelona<br />
+            2023   dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz  <a href="https://www.mixcloud.com/dublabes/campo-base-200323-w-laura-de-d%C3%ADaz/" target="blank">Link</a><br />
             2023 APS, Live with Mohamed Khtira (Gnawa music), Meteoro, Barcelona<br />
             2022 Live at Flushing Toilets collaborated Museo de Arte UNMSM <a href="https://youtu.be/fgxIPZr8k-o" target="blank">
               Link
