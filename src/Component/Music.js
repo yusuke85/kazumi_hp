@@ -60,14 +60,10 @@ function Music() {
             <div className="col-md-3">
               <div className="card-body">
                 <h5 className="card-title">
-                  2021 "el bosque corrompido"
-                  <br />
-                  video by Daniel Clegg
+                2023 "VHS Terminal" 
                 </h5>
                 <p className="card-text">
-                  What was originally a thing is transformed by a person and
-                  becomes a thing again over time or by the sheer force of
-                  nature.
+                This is a mini album made by extracting sounds from old VHS found on the street in Barcelona.
                 </p>
               </div>
             </div>
