@@ -5,6 +5,8 @@ import Youtube03 from "../Images/YoutubeImage3.jpg";
 import Youtube04 from "../Images/YoutubeImage4.jpg";
 import Youtube05 from "../Images/YoutubeImage5.jpg";
 import BandCamp from "../Images/Samplingbarcelona.jpg";
+import Zonawatusa from "../Images/ZW.png";
+import ComingSoon from "../Images/Comingsoon.png";
 import "../Styles/Music.css";
 import { Container } from "react-bootstrap";
 
@@ -13,6 +15,63 @@ function Music() {
     <>
       <Container>
         <div className="card mb-3" id="musicCards" style={{ maxWidth: "100%" }}>
+          <div className="row g-0">
+            <div className="col-md-3">
+              <img
+                src={ComingSoon}
+                id="youTubeImg1"
+                className="img-fluid rounded-sharp"
+                height="200"
+                alt="lanternimg"
+              />
+
+              {/* <a
+                href="https://www.youtube.com/watch?v=rq35tFLTQqc"
+                target="blank"
+              >
+                
+              </a> */}
+            </div>
+            <div className="col-md-3">
+              <div className="card-body">
+                <h5 className="card-title">COMING SOON...</h5>
+                <p className="card-text">
+                  Now we are making new project!!
+                  <br />
+                  Stay tune!!!
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-3">
+              <a
+                href="https://diffusereality.bandcamp.com/album/kazumi-sakoda-vhs-terminal-te0106?from=search&search_item_id=3773077890&search_item_type=a&search_match_part=%3F&search_page_id=2537255317&search_page_no=1&search_rank=6&search_sig=e0206d7efa80837b0c618037fd89496c
+"
+                target="blank"
+              >
+                <img
+                  src={Zonawatusa}
+                  id="youTubeImg2"
+                  className="img-fluid rounded-sharp"
+                  alt="youtube2img"
+                />
+              </a>
+            </div>
+            <div className="col-md-3">
+              <div className="card-body">
+                <h5 className="card-title">
+                  2021 "el bosque corrompido"
+                  <br />
+                  video by Daniel Clegg
+                </h5>
+                <p className="card-text">
+                  What was originally a thing is transformed by a person and
+                  becomes a thing again over time or by the sheer force of
+                  nature.
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="row g-0">
             <div className="col-md-3">
               <a
