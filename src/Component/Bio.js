@@ -35,12 +35,30 @@ const Bio = () => {
 
         </Col>
       </Row>
+
+      <Row>
+        <Col md={2} />
+        <Col md={8}>
+
+        <h3>Interview</h3>
+        <hr />
+        <p className="text-center">
+        2023  Laundry Day Soundscapes vol 3 <a href="https://laundryday.net/blogs/journal/soundscapes-volume-3-a-conversation-with-kazumi" target="blank">Link</a><br />
+        </p>
+
+        </Col>
+      </Row>
+
+
       <Row>
         <Col md={2} />
         <Col md={8}>
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
+            2023   Epifenómeno,”Sampling BarcelonaII二” y “VHS terminal”, FOC , Barcelona<br />
+            2023   Ruiod O Poesía , Live with Pilar Talavera(spoken word), Meteoro, Barcelona<br />
+            2023   Zona Watusa presents, "Sampling BarcelonaII二", Barcelona<br />
             2023   MOSTRA ,”Sampling Barcelona” y “VHS terminal”, Hangar.org, Barcelona<br />
             2023   dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz  <a href="https://www.mixcloud.com/dublabes/campo-base-200323-w-laura-de-d%C3%ADaz/" target="blank">Link</a><br />
             2023 APS, Live with Mohamed Khtira (Gnawa music), Meteoro, Barcelona<br />
