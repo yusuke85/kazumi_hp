@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../Images/Ms1.jpg";
+import Image from "../Images/BIO.jpg";
 import Image2 from "../Images/Installation01.JPG";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/Bio.css";
