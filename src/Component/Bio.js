@@ -49,7 +49,7 @@ const Bio = () => {
           <h3>Interview</h3>
           <hr />
           <p className="text-center">
-            2023 2023 Irradia sonora podcast{" "}
+            2023 Irradia sonora podcast{" "}
             <a
               href="https://open.spotify.com/episode/1sySWHnCcLCLlOfxKT6va2?si=e085d853a9a546b8
 "
@@ -108,7 +108,13 @@ const Bio = () => {
             2023 Zona Watusa presents, "Sampling BarcelonaII二", Barcelona
             <br />
             2023 MOSTRA ,”Sampling Barcelona” y “VHS terminal”, Hangar.org,
-            Barcelona
+            Barcelona{" "}
+            <a
+              href="https://soundcloud.com/mostrabcn/kazumi-sakoda-live-mostra-2023?si=c1fe94e2a9ca456ba1cfd5716536cad0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+              target="blank"
+            >
+              Link
+            </a>
             <br />
             2023 dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz{" "}
             <a
