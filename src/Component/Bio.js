@@ -30,25 +30,52 @@ const Bio = () => {
           </p>
           <h3>Installation</h3>
           <hr />
-          <img src={Image2} id="kazumi2" className="img-fluid" alt="InstallationImage" />
-           <p>2022 Recorreguts Sonors, ”el bosque corrompido”, convento Sant Agustí</p>
-
+          <img
+            src={Image2}
+            id="kazumi2"
+            className="img-fluid"
+            alt="InstallationImage"
+          />
+          <p>
+            2022 Recorreguts Sonors, ”el bosque corrompido”, convento Sant
+            Agustí
+          </p>
         </Col>
       </Row>
 
       <Row>
         <Col md={2} />
         <Col md={8}>
-
-        <h3>Interview</h3>
-        <hr />
-        <p className="text-center">
-        2023  Laundry Day Soundscapes vol 3 <a href="https://laundryday.net/blogs/journal/soundscapes-volume-3-a-conversation-with-kazumi" target="blank">Link</a><br />
-        </p>
-
+          <h3>Interview</h3>
+          <hr />
+          <p className="text-center">
+            2023 2023 Irradia sonora podcast{" "}
+            <a
+              href="https://open.spotify.com/episode/1sySWHnCcLCLlOfxKT6va2?si=e085d853a9a546b8
+"
+              target="blank"
+            >
+              Link
+            </a>
+            <br />
+            2023 Laundry Day Soundscapes vol 3{" "}
+            <a
+              href="https://laundryday.net/blogs/journal/soundscapes-volume-3-a-conversation-with-kazumi"
+              target="blank"
+            >
+              Link
+            </a>
+            <br />
+            2022 El prat rádio, Rastros de Carmín, Barcelona 26 set, 2022{" "}
+            <a
+              href="https://www.elprat.digital/radio/rastros-de-carmin-63/"
+              target="blank"
+            >
+              Link
+            </a>
+          </p>
         </Col>
       </Row>
-
 
       <Row>
         <Col md={2} />
@@ -56,35 +83,76 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
-            2023   Epifenómeno,”Sampling BarcelonaII二” y “VHS terminal”, FOC , Barcelona<br />
-            2023   Ruiod O Poesía , Live with Pilar Talavera(spoken word), Meteoro, Barcelona<br />
-            2023   Zona Watusa presents, "Sampling BarcelonaII二", Barcelona<br />
-            2023   MOSTRA ,”Sampling Barcelona” y “VHS terminal”, Hangar.org, Barcelona<br />
-            2023   dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz  <a href="https://www.mixcloud.com/dublabes/campo-base-200323-w-laura-de-d%C3%ADaz/" target="blank">Link</a><br />
-            2023 APS, Live with Mohamed Khtira (Gnawa music), Meteoro, Barcelona<br />
-            2022 Live at Flushing Toilets collaborated Museo de Arte UNMSM <a href="https://youtu.be/fgxIPZr8k-o" target="blank">
+          2023 Affine Dark Science on IDA Helsinki 18.08.23{" "} <a
+              href="https://soundcloud.com/ida_radio/affine-dark-science-with-kazumi-sakoda-laura-mrls-180823"
+              target="blank"
+            >
               Link
             </a>
             <br />
-            2022 Teorema Festival Barcelona 2022, "tokyo-barcelona", Barcelona<br />
-            2022 MIND FEST, "tokyo-barcelona", Castell d'Amposta <br />
-            2022 Zona Watusa Festival 5to anniversario,"Osenchi Tokyo", Barcelona <br />
-            2022 El prat rádio, Rastros de Carmín, Barcelona 26 set, 2022
-            <a href="https://www.elprat.digital/radio/rastros-de-carmin-63/" target="blank">
+            2023   HOC radio #154 <a
+              href="https://soundcloud.com/hoc-radio/set-154-kazumi-sakoda?si=eb33ed31a2f04d10a5042316bbca02d3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+              "
+              target="blank"
+            >
               Link
             </a>
+
+            <br />
+            2023 Epifenómeno,”Sampling BarcelonaII二” y “VHS terminal”, FOC ,
+            Barcelona
+            <br />
+            2023 Ruiod O Poesía , Live with Pilar Talavera(spoken word),
+            Meteoro, Barcelona
+            <br />
+            2023 Zona Watusa presents, "Sampling BarcelonaII二", Barcelona
+            <br />
+            2023 MOSTRA ,”Sampling Barcelona” y “VHS terminal”, Hangar.org,
+            Barcelona
+            <br />
+            2023 dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz{" "}
+            <a
+              href="https://www.mixcloud.com/dublabes/campo-base-200323-w-laura-de-d%C3%ADaz/"
+              target="blank"
+            >
+              Link
+            </a>
+            <br />
+            2023 APS, Live with Mohamed Khtira (Gnawa music), Meteoro, Barcelona
+            <br />
+            2022 Live at Flushing Toilets collaborated Museo de Arte UNMSM{" "}
+            <a href="https://youtu.be/fgxIPZr8k-o" target="blank">
+              Link
+            </a>
+            <br />
+            2022 Teorema Festival Barcelona 2022, "tokyo-barcelona", Barcelona
+            <br />
+            2022 MIND FEST, "tokyo-barcelona", Castell d'Amposta <br />
+            2022 Zona Watusa Festival 5to anniversario,"Osenchi Tokyo",
+            Barcelona <br />
             <br />
             2022 街のノイズ, "Lantern", slow room, Gifu Cassette Jam Session
-            <a href="https://soundcloud.app.goo.gl/hwJMrEVdKSRj4R7r7" target="blank">Link</a>
+            <a
+              href="https://soundcloud.app.goo.gl/hwJMrEVdKSRj4R7r7"
+              target="blank"
+            >
+              Link
+            </a>
             <br />
             2022 屋上環境音02, "Lantern", Shibuya valley, Tokyo <br />
             2022 TeslaFM Deltagrama #5 - Soul Twin
-            <a href="https://www.mixcloud.com/Teslafm_net/deltagrama-5-soul-twin/"
-              target="blank"> Link
+            <a
+              href="https://www.mixcloud.com/Teslafm_net/deltagrama-5-soul-twin/"
+              target="blank"
+            >
+              {" "}
+              Link
             </a>
             <br />
             2022 Streaming live at SubRadio , "Lantern", Barcelona
-            <a href="https://youtu.be/638UDoMve4c" target="blank"> Link
+            <a href="https://youtu.be/638UDoMve4c" target="blank">
+              {" "}
+              Link
             </a>
             <br />
             2022 Teorema Festival Barcelona, ”Lantern”, Barcelona <br />
