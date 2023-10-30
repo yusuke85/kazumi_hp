@@ -6,7 +6,7 @@ import Youtube04 from "../Images/YoutubeImage4.jpg";
 import Youtube05 from "../Images/YoutubeImage5.jpg";
 import BandCamp from "../Images/Samplingbarcelona.jpg";
 import Zonawatusa from "../Images/ZW.png";
-import ComingSoon from "../Images/Comingsoon.png";
+import Listen from "../Images/Listentotheland.jpeg";
 import "../Styles/Music.css";
 import { Container } from "react-bootstrap";
 
@@ -17,28 +17,28 @@ function Music() {
         <div className="card mb-3" id="musicCards" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
             <div className="col-md-3">
+            <a
+                href="https://zonawatusa.bandcamp.com/album/listen-to-the-land-until-it-becomes-your-body
+                "
+                target="blank">
               <img
-                src={ComingSoon}
-                id="youTubeImg1"
+                src={Listen}
+                id="Listen"
                 className="img-fluid rounded-sharp"
                 height="200"
                 alt="lanternimg"
-              />
-
-              {/* <a
-                href="https://www.youtube.com/watch?v=rq35tFLTQqc"
-                target="blank"
-              >
-                
-              </a> */}
+              /> 
+              </a>
             </div>
             <div className="col-md-3">
               <div className="card-body">
-                <h5 className="card-title">COMING SOON...</h5>
+                <h5 className="card-title">2023 “Listen To The Land Until It Becomes Your Body”</h5>
                 <p className="card-text">
-                  Now we are making new project!!
+                This is the album "Sampling Barcelona 2022" by Zona Watusa.<br />
+                Covert art by Urbild Editions.
+
                   <br />
-                  Stay tune!!!
+                  
                 </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ function Music() {
               >
                 <img
                   src={Zonawatusa}
-                  id="youTubeImg2"
+                  id="zw"
                   className="img-fluid rounded-sharp"
                   alt="youtube2img"
                 />

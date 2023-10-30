@@ -26,7 +26,7 @@ const Bio = () => {
             She transforms all these materials into music in cassette format,
             using loops of these handmade tapes. Through the recontextualisation
             of these cassettes, sampling and recordings of urban soundscapes,
-            his compositions blur the genres of experimental and noise music.
+            her compositions blur the genres of experimental and noise music.
           </p>
           <h3>Installation</h3>
           <hr />
@@ -83,6 +83,7 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
+          2023 “Listen To The Land Until It Becomes Your Body” Pre-release party, Radas studio, Barcelona <br />
           2023 Affine Dark Science on IDA Helsinki 18.08.23{" "} <a
               href="https://soundcloud.com/ida_radio/affine-dark-science-with-kazumi-sakoda-laura-mrls-180823"
               target="blank"
