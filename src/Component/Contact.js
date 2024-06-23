@@ -23,9 +23,6 @@ function Contact() {
                 <a href="https://www.instagram.com/kazumi_sakoda/" target="blank">INSTAGRAM</a>
               </li>
               <li>
-                <a href="https://www.facebook.com/kazumisakodaf" id="fbLink" target="blank">Facebook</a>
-              </li>
-              <li>
                 <a href="https://www.youtube.com/channel/UClGgOLYCBl8Ccz2_nuyjFCw" id="youthbeLink" target="blank">YOUTUBE</a>
               </li>
               <li>

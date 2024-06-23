@@ -6,7 +6,7 @@ import Youtube04 from "../Images/YoutubeImage4.jpg";
 import Youtube05 from "../Images/YoutubeImage5.jpg";
 import BandCamp from "../Images/Samplingbarcelona.jpg";
 import Zonawatusa from "../Images/ZW.png";
-import Listen from "../Images/Listentotheland.jpeg";
+import Listen from "../Images/Sb2022.jpg";
 import "../Styles/Music.css";
 import { Container } from "react-bootstrap";
 
@@ -34,7 +34,7 @@ function Music() {
               <div className="card-body">
                 <h5 className="card-title">2023 “Listen To The Land Until It Becomes Your Body”</h5>
                 <p className="card-text">
-                This is the album "Sampling Barcelona 2022" by Zona Watusa.<br />
+                This is the album "Sampling Barcelona 2022" by Zona Watusa.<br /> 
                 Covert art by Urbild Editions.
 
                   <br />

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../Images/BIO.jpg";
 import Image2 from "../Images/Installation01.JPG";
+import Image3 from "../Images/Solo12image.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Styles/Bio.css";
 
@@ -19,10 +20,11 @@ const Bio = () => {
           <h3>BIO</h3>
           <hr />
           <p className="text-center">
-            Kazumi Sakoda, a Japanese artist based in Barcelona for the last 5
+            Kazumi Sakoda, a Japanese artist based in Barcelona for the last 7
             years, investigates through the sounds she collects from the streets
             of Barcelona,the sound differences between the city and the sounds
             of the city of Tokyo, where she was born and grew up. <br />
+            Her songs are deeply emocional and take her back to certain moment of her life. In the sense, her music is like a sonic diary.<br />
             She transforms all these materials into music in cassette format,
             using loops of these handmade tapes. Through the recontextualisation
             of these cassettes, sampling and recordings of urban soundscapes,
@@ -49,6 +51,18 @@ const Bio = () => {
           <h3>Interview</h3>
           <hr />
           <p className="text-center">
+            2024 coffee magazine SOLO 12 “ The Sound Collector ”{" "}
+            <br />
+            2023 dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz{" "}
+            <a
+              href="https://www.mixcloud.com/dublabes/campo-base-200323-w-laura-de-díaz/
+"
+              target="blank"
+            >
+              Link
+            </a>
+            <br />
+            
             2023 Irradia sonora podcast{" "}
             <a
               href="https://open.spotify.com/episode/1sySWHnCcLCLlOfxKT6va2?si=e085d853a9a546b8
@@ -73,6 +87,11 @@ const Bio = () => {
             >
               Link
             </a>
+            
+              <img src={Image3} id="kazumi1" className="img-fluid" alt="bioImage" />
+            
+            
+            
           </p>
         </Col>
       </Row>
@@ -83,6 +102,10 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
+          2024 “ No querías café, de verdad ” for SOLO 12 magazine,  Valencia is coffee, Valencia<br />
+          2024 “ Listen To The Land Until It Becomes Your Body ”, Proyecto Nulo, Valencia<br />
+          2024 “ Listen To The Land Until It Becomes Your Body ”, Niu, Barcelona<br />
+
           2023 “Listen To The Land Until It Becomes Your Body” Pre-release party, Radas studio, Barcelona <br />
           2023 Affine Dark Science on IDA Helsinki 18.08.23{" "} <a
               href="https://soundcloud.com/ida_radio/affine-dark-science-with-kazumi-sakoda-laura-mrls-180823"
@@ -117,15 +140,9 @@ const Bio = () => {
               Link
             </a>
             <br />
-            2023 dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz{" "}
-            <a
-              href="https://www.mixcloud.com/dublabes/campo-base-200323-w-laura-de-d%C3%ADaz/"
-              target="blank"
-            >
-              Link
-            </a>
-            <br />
+            
             2023 APS, Live with Mohamed Khtira (Gnawa music), Meteoro, Barcelona
+            <br />
             <br />
             2022 Live at Flushing Toilets collaborated Museo de Arte UNMSM{" "}
             <a href="https://youtu.be/fgxIPZr8k-o" target="blank">
@@ -136,8 +153,7 @@ const Bio = () => {
             <br />
             2022 MIND FEST, "tokyo-barcelona", Castell d'Amposta <br />
             2022 Zona Watusa Festival 5to anniversario,"Osenchi Tokyo",
-            Barcelona <br />
-            <br />
+            Barcelona<br />
             2022 街のノイズ, "Lantern", slow room, Gifu Cassette Jam Session
             <a
               href="https://soundcloud.app.goo.gl/hwJMrEVdKSRj4R7r7"
@@ -166,6 +182,7 @@ const Bio = () => {
             2022 IWD | MUTEK Barcelona Edition 13, "Lantern", Casa Bonay,
             Barcelona
             <br />
+            <br />
             2021 Teorema Festival Barcelona, ”el bosque corrompido”, Barcelona
             <br />
             2020 KRONOS ART BCN, "being alive" with Noman from Tokyo with Zoom,
@@ -177,7 +194,7 @@ const Bio = () => {
         </Col>
       </Row>
       <div className="BioFooter">
-        <p>© KAZUMI SAKODA 2022</p>
+        <p>© KAZUMI SAKODA 2024</p>
       </div>
     </Container>
   );
