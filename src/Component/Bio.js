@@ -102,10 +102,12 @@ const Bio = () => {
           <h3>Live / Performance</h3>
           <hr />
           <p className="text-center">
+          2024   “Sampling barcelona 2023”, La terraza, Barcelona<br />
+          2024   “Sampling barcelona 2023”,  Casa Munjuic, Barcelona<br />
           2024 “ No querías café, de verdad ” for SOLO 12 magazine,  Valencia is coffee, Valencia<br />
           2024 “ Listen To The Land Until It Becomes Your Body ”, Proyecto Nulo, Valencia<br />
-          2024 “ Listen To The Land Until It Becomes Your Body ”, Niu, Barcelona<br />
-
+          <br />
+          2023 “ Listen To The Land Until It Becomes Your Body ”, Niu, Barcelona<br />
           2023 “Listen To The Land Until It Becomes Your Body” Pre-release party, Radas studio, Barcelona <br />
           2023 Affine Dark Science on IDA Helsinki 18.08.23{" "} <a
               href="https://soundcloud.com/ida_radio/affine-dark-science-with-kazumi-sakoda-laura-mrls-180823"
