@@ -33,7 +33,7 @@ const LandingPage = ({ playing, setPlaying }) => {
   return (
     <>
     <div class="sample01">
- <p>Next ※Barcelona※7/12 en El Pumarejo</p> 
+ {/* <p>Next ※Barcelona※7/12 en El Pumarejo</p> */}
  </div>
  
       <h2 id="pleaseClick">Please click on the images!!</h2>

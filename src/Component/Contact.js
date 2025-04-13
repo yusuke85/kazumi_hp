@@ -13,6 +13,8 @@ function Contact() {
         <Col md={5} xs={12}>
           <img src={ContactPhoto} id="contactPhoto" className="img-fluid" max-width="100%" width="600" height="auto" alt="contactphoto" />
         </Col>
+
+        
         <Col id="contactform" md={3} xs={12}>
           <p className="forContact"> For all booking, hiring, please send correspondence.
             <br /><a href="mailto:kazumisakodamusic@gmail.com">Please send message from hear</a>
@@ -39,10 +41,14 @@ function Contact() {
               </li>
             </ul>
           </div>
+
+        
         </Col>
       </Row >
     </Container >
+    
   )
 }
+
 
 export default Contact

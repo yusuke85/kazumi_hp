@@ -28,7 +28,10 @@ const Bio = () => {
             She transforms all these materials into music in cassette format,
             using loops of these handmade tapes. Through the recontextualisation
             of these cassettes, sampling and recordings of urban soundscapes,
-            her compositions blur the genres of experimental and noise music.
+            her compositions blur the genres of experimental and noise music.<br />
+            <br />
+            Alongside her solo work, Kazumi has been actively collaborating with other artists since 2024, one of which is the noise band "ffoorreevveerrmmoorree" which includes the Super 8mm video artist BORI and guitarist VRAJA.
+
           </p>
           <h3>Installation</h3>
           <hr />
@@ -51,6 +54,14 @@ const Bio = () => {
           <h3>Interview</h3>
           <hr />
           <p className="text-center">
+            2025  Radio Relativa Madrid “Amuletos :Hosted by Ana Banana DJ”{" "}
+            <a
+              href="https://radiorelativa.eu/episode/amuletos-w-kazumi-sakoda"
+              target="blank"
+            >
+              Link
+            </a>
+            <br />
             2024 coffee magazine SOLO 12 “ The Sound Collector ”{" "}
             <br />
             2023 dublab BCN, Campo Base 20.03.23 w/ Laura de Díaz{" "}
@@ -196,7 +207,7 @@ const Bio = () => {
         </Col>
       </Row>
       <div className="BioFooter">
-        <p>© KAZUMI SAKODA 2024</p>
+        <p>© KAZUMI SAKODA 2025</p>
       </div>
     </Container>
   );

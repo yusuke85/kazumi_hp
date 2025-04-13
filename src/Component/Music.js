@@ -7,6 +7,8 @@ import Youtube05 from "../Images/YoutubeImage5.jpg";
 import BandCamp from "../Images/Samplingbarcelona.jpg";
 import Zonawatusa from "../Images/ZW.png";
 import Listen from "../Images/Sb2022.jpg";
+import Portada from "../Images/PortadaSB2023_3.jpg";
+import Comingsoon from "../Images/Comingsoon.png";
 import "../Styles/Music.css";
 import { Container } from "react-bootstrap";
 
@@ -16,6 +18,63 @@ function Music() {
       <Container>
         <div className="card mb-3" id="musicCards" style={{ maxWidth: "100%" }}>
           <div className="row g-0">
+
+          <div className="col-md-3">
+            <a
+                href="https://zonawatusa.bandcamp.com/album/listen-to-the-land-until-it-becomes-your-body
+                "
+                target="blank">
+              <img
+                src={Comingsoon}
+                id="Listen"
+                className="img-fluid rounded-sharp"
+                height="200"
+                alt="lanternimg"
+              /> 
+              </a>
+            </div>
+            <div className="col-md-3">
+              <div className="card-body">
+                {/* <h5 className="card-title">2023 “Listen To The Land Until It Becomes Your Body”</h5> */}
+                <p className="card-text">
+                <br />
+                <br />
+                
+                Please wait listening to swaydo.
+
+                 
+                  
+                </p>
+              </div>
+            </div>
+
+          <div className="col-md-3">
+            <a
+                href="https://zonawatusa.bandcamp.com/album/listen-to-the-land-until-it-becomes-your-body
+                "
+                target="blank">
+              <img
+                src={Portada}
+                id="Listen"
+                className="img-fluid rounded-sharp"
+                height="200"
+                alt="lanternimg"
+              /> 
+              </a>
+            </div>
+            <div className="col-md-3" id="A">
+              <div className="card-body" id="sb2023">
+                <h5 className="card-title">2024 “Sampling Barcelona 2023”</h5>
+                <p className="card-text">
+                This was released by Zona Watusa Label.<br /> 
+                Mastered by Nick Klein<br /> 
+                Cover design by Studio Denk<br /> 
+                Cover photo by Elo Vázquez<br />                
+                </p>
+              </div>
+            </div>
+
+
             <div className="col-md-3">
             <a
                 href="https://zonawatusa.bandcamp.com/album/listen-to-the-land-until-it-becomes-your-body
@@ -34,10 +93,8 @@ function Music() {
               <div className="card-body">
                 <h5 className="card-title">2023 “Listen To The Land Until It Becomes Your Body”</h5>
                 <p className="card-text">
-                This is the album "Sampling Barcelona 2022" by Zona Watusa.<br /> 
-                Covert art by Urbild Editions.
-
-                  <br />
+                This is the sound diary for 2022. It was released by Zona Watusa Label.
+                Cover design by Urbild Editions.<br /> 
                   
                 </p>
               </div>
@@ -45,8 +102,7 @@ function Music() {
 
             <div className="col-md-3">
               <a
-                href="https://diffusereality.bandcamp.com/album/kazumi-sakoda-vhs-terminal-te0106?from=search&search_item_id=3773077890&search_item_type=a&search_match_part=%3F&search_page_id=2537255317&search_page_no=1&search_rank=6&search_sig=e0206d7efa80837b0c618037fd89496c
-"
+                href="https://diffusereality.bandcamp.com/album/kazumi-sakoda-vhs-terminal-te0106?from=search&search_item_id=3773077890&search_item_type=a&search_match_part=%3F&search_page_id=2537255317&search_page_no=1&search_rank=6&search_sig=e0206d7efa80837b0c618037fd89496c"
                 target="blank"
               >
                 <img
@@ -87,6 +143,7 @@ function Music() {
               <div className="card-body">
                 <h5 className="card-title">2022 "Lantern"</h5>
                 <p className="card-text">
+                  This is “Sampling Barcelona 2021”.< br/>
                   Inspired by Asako Yuzuki's novel "Lantern", I composed it for
                   International Women's Day.
                 </p>
@@ -243,6 +300,12 @@ function Music() {
             </p>
           </div>
         </div>
+
+        <div className="BioFooter">
+        <br />
+        
+        <p>© KAZUMI SAKODA 2025</p>
+      </div>
       </Container>
     </>
   );
