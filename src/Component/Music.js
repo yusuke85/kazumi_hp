@@ -1,14 +1,14 @@
 import React from "react";
-import Lantern from "../Images/YoutubeImage1.jpg";
-import Youtube02 from "../Images/YoutubeImage2.jpg";
-import Youtube03 from "../Images/YoutubeImage3.jpg";
-import Youtube04 from "../Images/YoutubeImage4.jpg";
-import Youtube05 from "../Images/YoutubeImage5.jpg";
-import BandCamp from "../Images/Samplingbarcelona.jpg";
-import Zonawatusa from "../Images/ZW.png";
-import Listen from "../Images/Sb2022.jpg";
-import Portada from "../Images/PortadaSB2023_3.jpg";
-import Comingsoon from "../Images/Comingsoon.png";
+import Lantern from "../Images/Lantern.jpg";
+import Youtube02 from "../Images/2021.jpg";
+import Youtube03 from "../Images/2020beingalive.jpg";
+import Youtube04 from "../Images/2020Kronos.jpg";
+import Youtube05 from "../Images/2020PLcataluna.jpg";
+import BandCamp from "../Images/2019.jpg";
+import Zonawatusa from "../Images/VHS.jpg";
+import Listen from "../Images/2023.jpg";
+import Portada from "../Images/2024.jpg";
+import Comingsoon from "../Images/image.png";
 import "../Styles/Music.css";
 import { Container } from "react-bootstrap";
 
@@ -35,12 +35,12 @@ function Music() {
             </div>
             <div className="col-md-3">
               <div className="card-body">
-                {/* <h5 className="card-title">2023 “Listen To The Land Until It Becomes Your Body”</h5> */}
+                {/* <h5 className="card-title">Sampling Barcelona 2024</h5> */}
                 <p className="card-text">
                 <br />
                 <br />
                 
-                Please wait listening to swaydo.
+                
 
                  
                   
@@ -165,7 +165,7 @@ function Music() {
                 <h5 className="card-title">
                   2021 "el bosque corrompido"
                   <br />
-                  video by Daniel Clegg
+                  {/* video by Daniel Clegg */}
                 </h5>
                 <p className="card-text">
                   What was originally a thing is transformed by a person and
@@ -213,9 +213,7 @@ function Music() {
               <div className="card-body">
                 <h5 className="card-title">2020 "Barceloneta" with Noman</h5>
                 <p className="card-text">
-                  San Juan is the shortest night of the year. On this day, the
-                  sound of fireworks doesn't stop until morning on the
-                  barceloneta beach.
+                Soundtrack “Els Artistes de l'Futur 2020”
                 </p>
               </div>
             </div>

@@ -110,9 +110,10 @@ const Bio = () => {
       <Row>
         <Col md={2} />
         <Col md={8}>
-          <h3>Live / Performance</h3>
+          <h3>Live / Work</h3>
           <hr />
           <p className="text-center">
+          2025   “dorops” for the film "Solo la sombra" directed by Enric Ribes<br />
           2024   “Sampling barcelona 2023”, La terraza, Barcelona<br />
           2024   “Sampling barcelona 2023”,  Casa Munjuic, Barcelona<br />
           2024 “ No querías café, de verdad ” for SOLO 12 magazine,  Valencia is coffee, Valencia<br />
