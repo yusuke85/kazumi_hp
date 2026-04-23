@@ -113,6 +113,7 @@ const Bio = () => {
           <h3>Live / Work</h3>
           <hr />
           <p className="text-center">
+          2026   “Sampling barcelona 2022-2023”, La Automatica, Barcelona<br />
           2025   “dorops” for the film "Solo la sombra" directed by Enric Ribes<br />
           2024   “Sampling barcelona 2023”, La terraza, Barcelona<br />
           2024   “Sampling barcelona 2023”,  Casa Munjuic, Barcelona<br />
