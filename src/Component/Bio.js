@@ -20,17 +20,12 @@ const Bio = () => {
           <h3>BIO</h3>
           <hr />
           <p className="text-center">
-            Kazumi Sakoda, a Japanese artist based in Barcelona for the last 7
-            years, investigates through the sounds she collects from the streets
-            of Barcelona,the sound differences between the city and the sounds
-            of the city of Tokyo, where she was born and grew up. <br />
-            Her songs are deeply emocional and take her back to certain moment of her life. In the sense, her music is like a sonic diary.<br />
-            She transforms all these materials into music in cassette format,
-            using loops of these handmade tapes. Through the recontextualisation
-            of these cassettes, sampling and recordings of urban soundscapes,
-            her compositions blur the genres of experimental and noise music.<br />
-            <br />
-            Alongside her solo work, Kazumi has been actively collaborating with other artists since 2024, one of which is the noise band "ffoorreevveerrmmoorree" which includes the Super 8mm video artist BORI and guitarist VRAJA.
+          Kazumi Sakoda is a Japanese sound artist based in Barcelona.
+          Through field recordings, handmade cassette loops and a sampling keyboard, she creates immersive soundscapes from the everyday sounds of Barcelona city.
+          Since 2019, she has been recording Barcelona as an ongoing sonic diary. Returning to the same places year after year, she listens to how the city changes over time. Some sounds disappear, others remain, and new ones quietly emerge.
+          Rather than documenting the city as it is, her work explores how urban sound reflects the passing of time and the subtle transformations of everyday life.
+          In live performances, these recordings are reassembled through cassette loops and sampling, creating evolving compositions that move between ambient, experimental and noise music.
+
 
           </p>
           <h3>Installation</h3>
@@ -113,6 +108,7 @@ const Bio = () => {
           <h3>Live / Work</h3>
           <hr />
           <p className="text-center">
+          2026   “Sampling barcelona for Komuso”, Komuso, Barcelona<br />
           2026   “Sampling barcelona 2022-2023”, La Automatica, Barcelona<br />
           2025   “dorops” for the film "Solo la sombra" directed by Enric Ribes<br />
           2024   “Sampling barcelona 2023”, La terraza, Barcelona<br />

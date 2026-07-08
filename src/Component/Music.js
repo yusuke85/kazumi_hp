@@ -66,7 +66,7 @@ function Music() {
               <div className="card-body" id="sb2023">
                 <h5 className="card-title">2024 “Sampling Barcelona 2023”</h5>
                 <p className="card-text">
-                This was released by Zona Watusa Label.<br /> 
+                Released by Zona Watusa Label.<br /> 
                 Mastered by Nick Klein<br /> 
                 Cover design by Studio Denk<br /> 
                 Cover photo by Elo Vázquez<br />                
@@ -93,8 +93,8 @@ function Music() {
               <div className="card-body">
                 <h5 className="card-title">2023 “Listen To The Land Until It Becomes Your Body”</h5>
                 <p className="card-text">
-                This is the sound diary for 2022. It was released by Zona Watusa Label.
-                Cover design by Urbild Editions.<br /> 
+                Sampling Barcelona 2022. Released by Zona Watusa Label.
+                Cover design: Urbild Editions.<br /> 
                   
                 </p>
               </div>
@@ -143,7 +143,7 @@ function Music() {
               <div className="card-body">
                 <h5 className="card-title">2022 "Lantern"</h5>
                 <p className="card-text">
-                  This is “Sampling Barcelona 2021”.< br/>
+                  Sampling Barcelona 2021.< br/>
                   Inspired by Asako Yuzuki's novel "Lantern", I composed it for
                   International Women's Day.
                 </p>
@@ -194,8 +194,7 @@ function Music() {
               <div className="card-body">
                 <h5 className="card-title">2020 "being alive" with Noman </h5>
                 <p className="card-text">
-                  Sometimes I musically feel the sounds of the city. I made this
-                  song through Zoom with Norman in Tokyo during the pandemic.
+                Created with Noman between Barcelona and Tokyo during the pandemic. A collaboration shaped by distance and the changing sounds of two cities.
                 </p>
               </div>
             </div>
