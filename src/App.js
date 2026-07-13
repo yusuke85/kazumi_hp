@@ -1,4 +1,5 @@
 import React,{useState, useEffect}from "react";
+import { HelmetProvider } from "react-helmet-async";
 import Links from "./Component/Links"
 import LandingPage from "./Component/LandingPage";
 import Bio from "./Component/Bio";
@@ -30,6 +31,7 @@ const App = () => {
   }, [playing]);
   
   return (
+  <HelmetProvider>
       <Router>
     <div className="App">
       <Links />
@@ -41,6 +43,7 @@ const App = () => {
       </Routes>
     </div>
       </Router>
+  </HelmetProvider>
   );
   
 }

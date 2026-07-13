@@ -1,4 +1,5 @@
-import React,{useState} from "react";
+import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import ClickableImage from "./ClickableImage";
 
@@ -22,26 +23,37 @@ import BellAudio from "../Audio/new_Bell.mp3";
 import PingpongAudio from "../Audio/pingpong.wav";
 
 const LandingPage = ({ playing, setPlaying }) => {
-
-  const [active, setActive] = useState(false);
-  const classToggle = () => {
-    setActive(!active);
-    return [playing];
-  };
- 
+  //  const [active, setActive] = useState(false);
+  //  const classToggle = () => {
+  //   setActive(!active);
+  //   return [playing];
+  //  };
 
   return (
     <>
-    <div class="sample01">
- { <p> Next 15 / 7 Barcelona en oblicuo hi-fi bar , 21 / 8 Pratdip DIGIT Festival </p> }
- </div>
- 
+      <Helmet>
+        <title>Kazumi Sakoda | Official Website</title>
+        <meta
+          name="description"
+          content="Official website of Kazumi Sakoda featuring biography, music, works and contact information."
+        />
+      </Helmet>
+
+      <div className="sample01">
+        {
+          <p>
+            {" "}
+            Next 15 / 7 Barcelona en oblicuo hi-fi bar , 21 / 8 Pratdip DIGIT
+            Festival{" "}
+          </p>
+        }
+      </div>
+
       <h2 id="pleaseClick">Please click on the images!!</h2>
       <Container className="lpPhotos">
         <Row id="item1">
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
-          
           </Col>
           <ClickableImage
             imgSrc={Bell}
@@ -52,14 +64,12 @@ const LandingPage = ({ playing, setPlaying }) => {
           <Col md={2} sm={2} xs={2}>
             <img src={Blank} id="blank" className="img-fluid" alt="blankimg" />
           </Col>{" "}
-
           <ClickableImage
             imgSrc={Boat}
             activeClass="boat"
             imgAlt="picture of a boat"
             audioSrc={FuneAudio}
           />
-          
           <ClickableImage
             imgSrc={Grass}
             className="grass"
@@ -107,4 +117,3 @@ const LandingPage = ({ playing, setPlaying }) => {
 };
 
 export default LandingPage;
-
