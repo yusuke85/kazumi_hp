@@ -37,6 +37,29 @@ const LandingPage = ({ playing, setPlaying }) => {
           name="description"
           content="Official website of Kazumi Sakoda featuring biography, music, works and contact information."
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Kazumi Sakoda | Official Website" />
+        <meta
+          property="og:description"
+          content="Official website of Kazumi Sakoda featuring biography, music, works and contact information."
+        />
+        <meta
+          property="og:image"
+          content="https://kazumi-sakoda.netlify.app/og-image.png"
+        />
+        <meta property="og:url" content="https://kazumi-sakoda.netlify.app/" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://kazumi-sakoda.netlify.app/og-image.png"
+        />
+        <meta name="twitter:title" content="Kazumi Sakoda | Official Website" />
+
+        <meta
+          name="twitter:description"
+          content="Official website of Kazumi Sakoda featuring biography, music, works and contact information."
+        />
       </Helmet>
 
       <div className="sample01">
