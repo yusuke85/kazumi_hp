@@ -37,7 +37,7 @@ const LandingPage = ({ playing, setPlaying }) => {
           name="description"
           content="Official website of Kazumi Sakoda featuring biography, music, works and contact information."
         />
-        <meta property="og:type" content="website" />
+        {/* <meta property="og:type" content="website" />
         <meta property="og:title" content="Kazumi Sakoda | Official Website" />
         <meta
           property="og:description"
@@ -59,7 +59,7 @@ const LandingPage = ({ playing, setPlaying }) => {
         <meta
           name="twitter:description"
           content="Official website of Kazumi Sakoda featuring biography, music, works and contact information."
-        />
+        /> */}
       </Helmet>
 
       <div className="sample01">
