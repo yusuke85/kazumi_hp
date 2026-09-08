@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap"
 import ContactPhoto from "../Images/facecopy.jpeg"
 import "../Styles/Contact.css"
@@ -7,6 +8,14 @@ import "../Styles/Contact.css"
 function Contact() {
 
   return (
+    <>
+    <Helmet>
+        <title>Contact | Kazumi Sakoda</title>
+        <meta
+          name="description"
+          content="Contact for Kazumi Sakoda, a Japanese sound artist based in Barcelona, including installations, interviews and live performances."
+        />
+      </Helmet>
     <Container  >
       <Row >
         <Col md={2} />
@@ -46,6 +55,7 @@ function Contact() {
         </Col>
       </Row >
     </Container >
+  </>
     
   )
 }
