@@ -65,9 +65,7 @@ const LandingPage = ({ playing, setPlaying }) => {
       <div className="sample01">
         {
           <p>
-            {" "}
-            Next 15 / 7 Barcelona en oblicuo hi-fi bar , 21 / 8 Pratdip DIGIT
-            Festival{" "}
+            {" "} Next 10 / 10 COMMON AIR Barcelona (poble nou) {" "}
           </p>
         }
       </div>

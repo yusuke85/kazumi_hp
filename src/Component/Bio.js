@@ -128,6 +128,10 @@ const Bio = () => {
             <h3>Live / Work</h3>
             <hr />
             <p className="text-center">
+              2026 “Sampling barcelona 2022-24 “, DIGIT Festival, Pratdip (Tarragona)
+              <br />
+              2026 “Osenchi Tokyo” for Oblicuo hi-fi bar, Barcelona
+              <br />
               2026 “Sampling barcelona for Komuso”, Komuso, Barcelona
               <br />
               2026 “Sampling barcelona 2022-2023”, La Automatica, Barcelona
