@@ -53,8 +53,7 @@ function Music() {
 
             <div className="col-md-3">
               <a
-                href="https://zonawatusa.bandcamp.com/album/listen-to-the-land-until-it-becomes-your-body
-                "
+                href="https://kazumisakoda.bandcamp.com/album/sampling-barcelona-2023"
                 target="blank"
               >
                 <img
@@ -84,8 +83,7 @@ function Music() {
 
             <div className="col-md-3">
               <a
-                href="https://zonawatusa.bandcamp.com/album/listen-to-the-land-until-it-becomes-your-body
-                "
+                href="https://kazumisakoda.bandcamp.com/album/listen-to-the-land-until-it-becomes-your-body-sampling-barcelona-2022"
                 target="blank"
               >
                 <img
@@ -112,7 +110,7 @@ function Music() {
 
             <div className="col-md-3">
               <a
-                href="https://diffusereality.bandcamp.com/album/kazumi-sakoda-vhs-terminal-te0106?from=search&search_item_id=3773077890&search_item_type=a&search_match_part=%3F&search_page_id=2537255317&search_page_no=1&search_rank=6&search_sig=e0206d7efa80837b0c618037fd89496c"
+                href="https://kazumisakoda.bandcamp.com/album/vhs-terminal"
                 target="blank"
               >
                 <img
@@ -136,7 +134,7 @@ function Music() {
           <div className="row g-0">
             <div className="col-md-3">
               <a
-                href="https://www.youtube.com/watch?v=rq35tFLTQqc"
+                href="https://kazumisakoda.bandcamp.com/album/lantern"
                 target="blank"
               >
                 <img
