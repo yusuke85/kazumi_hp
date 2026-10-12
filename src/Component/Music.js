@@ -6,7 +6,7 @@ import Youtube03 from "../Images/2020beingalive.jpg";
 import Youtube04 from "../Images/2020Kronos.jpg";
 import Youtube05 from "../Images/2020PLcataluna.jpg";
 import BandCamp from "../Images/2019.jpg";
-import Zonawatusa from "../Images/VHS.jpg";
+import Zonawatusa from "../Images/VHS terminal.jpg";
 import Listen from "../Images/2023.jpg";
 import Portada from "../Images/2024.jpg";
 import Comingsoon from "../Images/image.png";

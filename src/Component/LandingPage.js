@@ -65,7 +65,7 @@ const LandingPage = ({ playing, setPlaying }) => {
       <div className="sample01">
         {
           <p>
-            {" "} Next 10 / 10 COMMON AIR Barcelona (poble nou) {" "}
+            {" "} ੯•﹅&emsp;੯‧̀͡u&emsp;੯‧͡𐙚&emsp;𐂯&emsp;੯•́໒꒱&emsp;੯‧̀͡⬮&emsp;੯‧̀͡₎᭄&emsp;੯‧̀͡ᥬ⑅\&emsp;◤•͈ᴥ•͈◥୭ {" "}
           </p>
         }
       </div>
